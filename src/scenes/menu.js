@@ -17,6 +17,8 @@ class MenuState extends MulleState {
 
 	create(){
 
+		this.isActive = true;
+
 		this.game.mulle.addAudio('menu');
 
 		var background = new MulleSprite(this.game, 320, 240);
@@ -57,6 +59,10 @@ class MenuState extends MulleState {
 			let name = this.nameInput.value;
 			
 			if( ev.keyCode == 13 ){
+
+				name = name.trim();
+
+				if( !name ) return;
 
 				if( this.game.mulle.UsersDB[ name ] ){
 
@@ -137,7 +143,8 @@ class MenuState extends MulleState {
 
 		this.game.mulle.playAudio('10e001v0', () => {
 
-			if(!mulleMouth) return;
+			// stopAll() in shutdown triggers this callback, don't start talking in the next scene
+			if(!this.isActive) return;
 
 			this.game.mulle.playAudio('10e002v0');
 
@@ -159,6 +166,8 @@ class MenuState extends MulleState {
 	}
 
 	shutdown(){
+
+		this.isActive = false;
 
 		if(this.nameInput) this.nameInput.parentNode.removeChild(this.nameInput);
 

@@ -311,6 +311,7 @@ class MulleActor extends MulleSprite {
 		if(!this.talkAudio){
 			console.error('invalid talk audio', this, id);
 			this.talkAudio = null;
+			this.isTalking = false;
 			return false;
 		}
 
@@ -328,9 +329,9 @@ class MulleActor extends MulleSprite {
 
 			if( this.talkAudio.extraData && this.talkAudio.extraData.cue ){
 				
-				var onlyTalk = this.talkAudio.extraData.cue.find(function(v){ return v[1].toLowerCase() == 'talk'; });
+				var onlyTalk = this.talkAudio.extraData.cue.filter(function(v){ return v[1].toLowerCase() == 'talk'; });
 
-				cueAmount = onlyTalk ? onlyTalk.length : 1;
+				cueAmount = onlyTalk.length > 0 ? onlyTalk.length : 1;
 
 			}
 
@@ -350,13 +351,16 @@ class MulleActor extends MulleSprite {
 						}
 					*/
 
-					for( var i in lines ){
+					var del = 0;
+
+					for( let i = 0; i < lines.length; i++ ){
 
 						if( i == 0 ){
 							this.game.mulle.subtitle.showLine( lines[ i ], subData.actor );
 						}else{
 
-							var del = 900 * Math.log( lines[i].length );
+							// show each line after the previous one has had time to be read
+							del += 900 * Math.log( lines[ i - 1 ].length );
 						
 							this.game.time.events.add( del, () => {
 								this.game.mulle.subtitle.showLine( lines[ i ], subData.actor );

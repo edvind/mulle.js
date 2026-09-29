@@ -21,6 +21,9 @@ MapObject.onCreate = function(){
 
 MapObject.ferryLoop = function(){
 
+	// ferry was destroyed (map changed) while waiting
+	if( !this.game ) return;
+
 	var car = this.game.state.states[ this.game.state.current ].driveCar;
 
 	var dist = car.position.distance( this.position );
@@ -75,7 +78,7 @@ MapObject.ferryLoop = function(){
 
 		t.onComplete.addOnce( () => {
 
-			game.time.events.add(Phaser.Timer.SECOND, () => {
+			this.ferryTimer = game.time.events.add(Phaser.Timer.SECOND, () => {
 
 				this.ferryStep++;
 				this.ferryLoop();
@@ -95,7 +98,7 @@ MapObject.ferryLoop = function(){
 
 		t.onComplete.addOnce( () => {
 
-			game.time.events.add(Phaser.Timer.SECOND, () => {
+			this.ferryTimer = game.time.events.add(Phaser.Timer.SECOND, () => {
 
 				this.ferryStep = 0;
 				this.ferryLoop();
@@ -109,6 +112,15 @@ MapObject.ferryLoop = function(){
 };
 
 MapObject.onEnterInner = function(){
+
+};
+
+MapObject.onDestroy = function(){
+
+	if( this.ferryTimer ){
+		this.game.time.events.remove( this.ferryTimer );
+		this.ferryTimer = null;
+	}
 
 };
 

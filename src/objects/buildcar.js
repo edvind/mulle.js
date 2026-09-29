@@ -173,7 +173,7 @@ class MulleBuildCar extends Phaser.Group {
 				sprite_bg.partId = partId;
 
 				sprite_bg.layer = partData.Requires[0];
-				sprite_bg.sortIndex = this.points[ sprite_bg.layer ].bg ? this.points[ sprite_bg.layer ].bg : 7;
+				sprite_bg.sortIndex = this.points[ sprite_bg.layer ] && this.points[ sprite_bg.layer ].bg ? this.points[ sprite_bg.layer ].bg : 7;
 
 				sprite_bg.is_bg = true;
 

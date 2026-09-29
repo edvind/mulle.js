@@ -130,7 +130,7 @@ class MulleSave {
 		// morphed car parts
 		for( var i of this.Car.Parts ){
 			var p = this.game.mulle.PartsDB[ i ];
-			if( p.master && partId == p.master ) return true;
+			if( p && p.master && partId == p.master ) return true;
 		}
 
 		return false;

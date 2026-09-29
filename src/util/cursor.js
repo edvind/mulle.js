@@ -62,9 +62,9 @@ class MulleCursor {
 
 	remove( name ){
 
-		var i = this._history.indexOf( name ) !== -1;
+		var i = this._history.indexOf( name );
 
-		if( i ) this._history.splice( i, 1 );
+		if( i !== -1 ) this._history.splice( i, 1 );
 
 		this.refresh();
 

@@ -32,13 +32,13 @@ class AudioSprite(object):
         return sum(len(f['seg']) for f in self._realFiles())
     
     def __iter__(self):
-        return (self._files[i] for i in xrange(len(self._files)))
+        return (self._files[i] for i in range(len(self._files)))
 
     def __getitem__(self, idx):
         return self._files[idx]
 
     def findIndexOf(self, path):
-        return map(lambda f: f['path'], self).index(path)
+        return [f.get('path') for f in self].index(path)
 
     def setMaxAudioLevel(self, level):
         self._maxLevel = level

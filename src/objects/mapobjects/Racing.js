@@ -64,7 +64,9 @@ MapObject.onCreate = function(){
 
 	}
 
-	this.game.mulle.net.socket.addEventListener('message', this.networkListener );
+	if( this.game.mulle.net.socket ){
+		this.game.mulle.net.socket.addEventListener('message', this.networkListener );
+	}
 
 };
 
@@ -203,7 +205,9 @@ MapObject.onDestroy = function(){
 
 	this.game.time.events.remove( this.boardLoop );
 
-	this.game.mulle.net.socket.removeEventListener('message', this.networkListener );
+	if( this.game.mulle.net.socket ){
+		this.game.mulle.net.socket.removeEventListener('message', this.networkListener );
+	}
 
 };
 

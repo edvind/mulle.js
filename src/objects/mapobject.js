@@ -195,7 +195,7 @@ class MulleMapObject extends MulleSprite {
 
 		if( this.def.type == '#dest' || this.def.type == '#rdest' ){
 			car.enabled = false;
-			car.engineAudio.stop();
+			if( car.engineAudio ) car.engineAudio.stop();
 			// car.engineAudio = null;
 		}
 
@@ -230,7 +230,7 @@ class MulleMapObject extends MulleSprite {
 
 			this.game.state.states[ this.game.state.current ].saveSession(this);
 
-			this.game.mulle.SetWhenDone = this.SetWhenDone;
+			this.game.mulle.SetWhenDone = this.def.SetWhenDone;
 
 		}
 
@@ -322,14 +322,14 @@ class MulleMapObject extends MulleSprite {
 	}
 
 	
-	destroy(){
+	destroy( destroyChildren ){
 
-		if( this.custom && this.custom.onDestroy ){
-			this.custom.onDestroy.call(this);
-			return;
+		// custom object methods are mixed into the instance with Object.assign
+		if( this.onDestroy ){
+			this.onDestroy();
 		}
 
-		super.destroy();
+		super.destroy( destroyChildren );
 
 	}
 	

@@ -76,6 +76,18 @@ class MulleButton extends Phaser.Button {
 		
 	}
 
+	destroy( destroyChildren ){
+
+		// display sprite is added to the world separately, remove it with the button
+		if( this.displaySprite ){
+			this.displaySprite.destroy();
+			this.displaySprite = null;
+		}
+
+		super.destroy( destroyChildren );
+
+	}
+
 };
 
 export default MulleButton;
