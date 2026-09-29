@@ -96,42 +96,42 @@ body {
 
 #player canvas {
 	
-	// cursor: url(ui/default.png) 5 1, default;
+	// cursor: url(../ui/default.png) 5 1, default;
 
 	
 	// &.cursor-grab {
-	// 	cursor: url(ui/grab.png) 13 10, grab;
-	// 	cursor: url(ui/grab.png) 13 10, -webkit-grab;
+	// 	cursor: url(../ui/grab.png) 13 10, grab;
+	// 	cursor: url(../ui/grab.png) 13 10, -webkit-grab;
 	// }
-	// &.cursor-point { cursor: url(ui/point.png) 1 1, pointer; }
-	// &.cursor-left { cursor: url(ui/left.png) 0 5, pointer; }
-	// &.cursor-right { cursor: url(ui/right.png) 27 5, pointer; }
-	// &.cursor-back { cursor: url(ui/back.png) 14 7, pointer; }
-	// &.cursor-drag_forward { cursor: url(ui/drag_forward.png) 15 16, n-resize; }
-	// &.cursor-drag_left { cursor: url(ui/drag_left.png) 20 17, w-resize; }
-	// &.cursor-drag_right { cursor: url(ui/drag_right.png) 16 15, e-resize; }
+	// &.cursor-point { cursor: url(../ui/point.png) 1 1, pointer; }
+	// &.cursor-left { cursor: url(../ui/left.png) 0 5, pointer; }
+	// &.cursor-right { cursor: url(../ui/right.png) 27 5, pointer; }
+	// &.cursor-back { cursor: url(../ui/back.png) 14 7, pointer; }
+	// &.cursor-drag_forward { cursor: url(../ui/drag_forward.png) 15 16, n-resize; }
+	// &.cursor-drag_left { cursor: url(../ui/drag_left.png) 20 17, w-resize; }
+	// &.cursor-drag_right { cursor: url(../ui/drag_right.png) 16 15, e-resize; }
 	
 
-	&.C_Standard { cursor: url(ui/default.png) 5 1, default; }
+	&.C_Standard { cursor: url(../ui/default.png) 5 1, default; }
 	&.C_Grab {
-		cursor: url(ui/grab.png) 13 10, grab;
-		cursor: url(ui/grab.png) 13 10, -webkit-grab;
+		cursor: url(../ui/grab.png) 13 10, grab;
+		cursor: url(../ui/grab.png) 13 10, -webkit-grab;
 	}
-	&.C_Left { cursor: url(ui/left.png) 0 5, pointer; }
-	&.C_MoveLeft { cursor: url(ui/drag_left.png) 20 17, w-resize; }
-	&.C_Click { cursor: url(ui/point.png) 1 1, pointer; }
-	&.C_MoveIn { cursor: url(ui/drag_forward.png) 15 16, n-resize; }
-	&.C_Right { cursor: url(ui/right.png) 27 5, pointer; }
-	&.C_MoveRight { cursor: url(ui/drag_right.png) 16 15, e-resize; }
+	&.C_Left { cursor: url(../ui/left.png) 0 5, pointer; }
+	&.C_MoveLeft { cursor: url(../ui/drag_left.png) 20 17, w-resize; }
+	&.C_Click { cursor: url(../ui/point.png) 1 1, pointer; }
+	&.C_MoveIn { cursor: url(../ui/drag_forward.png) 15 16, n-resize; }
+	&.C_Right { cursor: url(../ui/right.png) 27 5, pointer; }
+	&.C_MoveRight { cursor: url(../ui/drag_right.png) 16 15, e-resize; }
 
 	
-	//&.cursor-drive { cursor: url(ui/drive.png) 15 15, move; }
+	//&.cursor-drive { cursor: url(../ui/drive.png) 15 15, move; }
 
 	//@for $i from 1 through 16 {
 
 	//	&.cursor-direction-#{$i} {
 	//		$num: 161 + ( ( $i - 1 ) * 2 );
-	//		cursor: url(ui/#{$num}.png) 8 8, move;
+	//		cursor: url(../ui/#{$num}.png) 8 8, move;
 	//	}
 
 	//}

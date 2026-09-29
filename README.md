@@ -8,55 +8,36 @@ A browser port of the Swedish children's game *Mulle Meck bygger bilar* (Gary Ga
 
 | Path | What it is |
 | --- | --- |
-| `src/` | Game client (ES6, bundled with webpack + Babel). `src/index.js` is the entry point, `src/scenes/` holds one file per game scene. |
+| `src/` | Game client (ES modules, bundled with Vite). `src/index.js` is the entry point, `src/scenes/` holds one file per game scene. |
 | `src/index.html`, `src/style.scss` | Page shell and stylesheet for the client. |
 | `data/` | Game data (cars, parts, maps, missions, worlds) already converted to JSON. Committed, so you normally don't need to regenerate it. |
 | `server/server.js` | WebSocket server for the online "see other players' cars" feature. |
 | `ShockwaveExtractor.py`, `ShockwaveParser.py` | Extract cast members (bitmaps, sounds, Lingo text) from Director `.DXR` / `.CXT` files. |
 | `assets.py`, `audiosprite/` | Pack extracted files into Phaser texture atlases and audio sprites under `dist/assets/`. |
 | `mulle.py`, `listparser.js`, `node-listparser.js` | Turn the Lingo data lists in `CDDATA.CXT` into the JSON files in `data/`. |
-| `gulpfile.js`, `webpack.*.js` | Build configuration. |
+| `vite.config.mjs` | Build and dev server configuration. |
 
 ## Requirements
 
-- **Node.js.** The client bundle and the server run on current Node (tested on Node 22). The full `gulp` build needs **Node 10**, because gulp 3 and node-sass 4 do not install or run on newer versions. If you only use the manual build below, any recent Node works.
+- **Node.js 22 or newer.**
 - **Python 3** with [Pillow](https://pypi.org/project/Pillow/), [PyTexturePacker](https://pypi.org/project/PyTexturePacker/) and [pydub](https://pypi.org/project/pydub/), only if you want to extract assets.
 - **ffmpeg** on your `PATH`, used for converting sounds to Ogg.
 - **optipng** (optional), only for the production asset build.
 
-## Quick start (modern Node)
-
-This builds the client without gulp, which is the easiest way to get going.
-
-```sh
-npm install --ignore-scripts          # skips node-sass, which won't compile on new Node
-
-mkdir -p dist/data
-cp src/index.html loading.png dist/
-cp node_modules/phaser-ce/build/phaser.min.js dist/
-cp data/*.json dist/data/
-npx sass src/style.scss dist/style.css
-
-npm start                             # webpack-dev-server on http://localhost:8080
-```
-
-`npm start` compiles `src/` into `bundle.js` in memory, serves everything else from `dist/`, and rebuilds when you edit a file. Put your extracted assets in `dist/assets/` (see below) and open <http://localhost:8080>.
-
-## Full build with gulp (Node 10)
-
-With Node 10 (for example via `nvm install 10 && nvm use 10`):
+## Building and running
 
 ```sh
 npm install
-npx gulp              # dev build: phaser, bundle, html, css, data, assets (unoptimized)
-npx gulp build-dev    # just the client, no asset extraction
-npx gulp build-prod   # minified client
-npx gulp build-full   # minified client + optimized assets + data
+npm run dev        # dev server with live reload on http://localhost:8080
+npm run build      # production build into dist/
+npm run preview    # serve the production build on http://localhost:8080
 ```
 
-Everything is written to `dist/`. The `phaser` task makes a custom, smaller Phaser build with grunt. The `default` and `build-full` tasks also run `assets.py`, so they only succeed once asset extraction is set up.
+Put your extracted assets in `dist/assets/` (see below). The dev server serves them from there, along with Phaser (the prebuilt arcade-physics bundle from `phaser-ce`), `data/` and `loading.png`. `npm run build` writes the page, the bundle (under `dist/build/`), Phaser and `data/` into `dist/`, and leaves `dist/assets/` alone, so you can host `dist/` with any static file server.
 
-After building you can serve `dist/` with `npm start`, `npm run start-prod` (production webpack settings), or any static file server.
+Production builds strip `console.debug` calls and connect to the multiplayer server set in `networkServer` in `src/game.js`; dev builds connect to `localhost:8765`.
+
+The optional custom cursors are loaded from `dist/ui/*.png`. Vite warns that it can't resolve them at build time; that's expected, since they aren't in the repo.
 
 ## Getting the assets
 
@@ -77,7 +58,8 @@ The game data lives in Director movie and cast files on the original CD: `CDDATA
 3. **Build the asset packs:**
 
    ```sh
-   python assets.py 0    # 0 = no PNG optimization; 1–7 = optipng level
+   npm run assets        # same as: python3 assets.py 0 (no PNG optimization)
+   npm run assets-prod   # same as: python3 assets.py 7 (optipng level 7)
    ```
 
    This writes texture atlases, `*-audio.ogg` sprites and a Phaser pack JSON per scene into `dist/assets/`.

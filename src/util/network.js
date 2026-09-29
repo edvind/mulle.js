@@ -18,7 +18,7 @@ class MulleNet {
 			return false;
 		}
 
-		var address = process.env.NODE_ENV !== "production" ? this.game.mulle.networkDevServer : this.game.mulle.networkServer;
+		var address = import.meta.env.DEV ? this.game.mulle.networkDevServer : this.game.mulle.networkServer;
 		
 		console.log('[network]', 'connect', address);
 		this.socket = new WebSocket( "ws://" + address );

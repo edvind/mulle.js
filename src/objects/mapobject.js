@@ -5,28 +5,35 @@
 "use strict";
 
 import MulleSprite from 'objects/sprite';
+import Cows from 'objects/mapobjects/Cows';
+import Ferry from 'objects/mapobjects/Ferry';
+import Gas from 'objects/mapobjects/Gas';
+import Racing from 'objects/mapobjects/Racing';
+import Goats from 'objects/mapobjects/Goats';
+import WBridge from 'objects/mapobjects/WBridge';
+import CBridge from 'objects/mapobjects/CBridge';
+import FarAway from 'objects/mapobjects/FarAway';
+import Picture from 'objects/mapobjects/Picture';
+import Hill from 'objects/mapobjects/Hill';
+import Stop from 'objects/mapobjects/Stop';
+import Sound from 'objects/mapobjects/Sound';
+import Teleport from 'objects/mapobjects/Teleport';
 
-var toLoad = [
-	'Cows',
-	'Ferry',
-	'Gas',
-	'Racing',
-	'Goats',
-	'WBridge',
-	'CBridge',
-	'FarAway',
-	'Picture',
-	'Hill',
-	'Stop',
-	'Sound',
-	'Teleport'
-];
-
-var MapObjects = {};
-
-toLoad.forEach( (l) => {
-	MapObjects[ l ] = require('objects/mapobjects/' + l).default;
-});
+var MapObjects = {
+	Cows,
+	Ferry,
+	Gas,
+	Racing,
+	Goats,
+	WBridge,
+	CBridge,
+	FarAway,
+	Picture,
+	Hill,
+	Stop,
+	Sound,
+	Teleport,
+};
 
 /**
  * Overworld object
