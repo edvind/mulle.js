@@ -229,7 +229,7 @@ MulleResources.append(resSolhem)
 
 assetOutPath = "./dist/assets"
 assetWebPath = "assets"
-resourcePath = '<<<<<<<<<<CST STORAGE PATH>>>>>>>>>>'
+resourcePath = os.environ.get('MULLE_CST_PATH', './cst_out_new')
 meta = {}
 
 assetIndex = {}
@@ -253,7 +253,7 @@ for res in MulleResources:
 
 	for f in res.files:
 
-		dirPath = resourcePath + '\\' + f['dir']
+		dirPath = os.path.join(resourcePath, f['dir'])
 
 		j = None
 
@@ -262,7 +262,7 @@ for res in MulleResources:
 		else:
 			# j = require( dirPath + '\\metadata.json');
 			
-			with open(dirPath + '\\metadata.json') as data_file:
+			with open(os.path.join(dirPath, 'metadata.json')) as data_file:
 				j = json.load( data_file )
 
 			meta[ f['dir'] ] = j
@@ -276,9 +276,9 @@ for res in MulleResources:
 			continue
 
 
-		libPath = dirPath + '\\' + lib['name']
+		libPath = os.path.join(dirPath, lib['name'])
 		
-		fileBasePath = libPath + '\\' + str(f['num'])
+		fileBasePath = os.path.join(libPath, str(f['num']))
 
 		if mem['castType'] == 1:
 
@@ -412,7 +412,7 @@ for res in MulleResources:
 			PyTexturePackerUtils.save_image(packed_image, assetOutPath + "/" + atlasName + '.png')
 
 			if optimizeImages > 0:
-				call('optipng.exe -o' + str( optimizeImages ) + ' ' + assetOutPath + "/" + atlasName + '.png')
+				call([ 'optipng', '-o' + str( optimizeImages ), assetOutPath + "/" + atlasName + '.png' ])
 			
 			# make json
 			for image_rect in atlas.image_rect_list:

@@ -5,3 +5,13 @@ __pycache__/
 docs/
 mulle.sublime-workspace
 mulle.sublime-project
+.venv/
+game/
+cst_out_new/
+gamedata/
+*.iso
+*.ISO
+*.DXR
+*.dxr
+*.CXT
+*.cxt
