@@ -428,6 +428,17 @@ class MulleCarPart extends MulleSprite {
 		if( morph != null && this.morphs ){
 
 			if( this.morphs[ morph ].partData.Requires ){
+
+				// the car needs an attachment point for the morph
+				var hasMorphPoint = false;
+				for( var r in this.morphs[ morph ].partData.Requires ){
+					if( this.car.points[ this.morphs[ morph ].partData.Requires[r] ] ){
+						hasMorphPoint = true;
+						break;
+					}
+				}
+				if(!hasMorphPoint) return false;
+
 				for( var r in this.morphs[ morph ].partData.Requires ){
 					if( this.car.usedPoints[ this.morphs[ morph ].partData.Requires[r] ] ){
 						// console.log('used point', morph);

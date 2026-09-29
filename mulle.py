@@ -9,8 +9,6 @@ import json
 
 from ShockwaveParser import ShockwaveParser, CastType
 
-from listparser import ShockwaveListParser
-
 rawData = {
 	"objects": [],
 	"maps": [],
@@ -87,7 +85,7 @@ for sec, data in rawData.items():
 	i = 1
 	for lingo in data:
 
-		cmd = "node node-listparser.js"
+		cmd = ["node", "node-listparser.js"]
 		p = Popen(cmd, stdout=PIPE, stdin=PIPE, stderr=STDOUT)    
 		grep_stdout = p.communicate( input = bytes(lingo, 'utf-8') )[0]
 		parsed = json.loads( grep_stdout )

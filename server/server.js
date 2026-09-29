@@ -153,26 +153,20 @@ class MulleServer {
 			}
 
 			// too many connections
-			if( this.ipClients[ clientIP ] ){
+			var ipConnections = this.ipClients[ clientIP ] || 0;
 
-				if( this.ipClients[ clientIP ] > maxConnections ){
+			if( ipConnections >= maxConnections ){
 
-					this.log( ('Client ' + this.pclient( ws ) + ' connection limit from ' + clientIP + '').red );
+				this.log( ('Client ' + this.pclient( ws ) + ' connection limit from ' + clientIP + '').red );
 
-					ws.send( JSON.stringify( { error: 'too many connections from ip' } ) );
+				ws.send( JSON.stringify( { error: 'too many connections from ip' } ) );
 
-					ws.terminate();
+				ws.terminate();
 
-					return;
-				}
-
-				this.ipClients[ clientIP ]++;
-
-			}else{
-
-				this.ipClients[ clientIP ] = 0;
-
+				return;
 			}
+
+			this.ipClients[ clientIP ] = ipConnections + 1;
 			
 
 			ws.clientId = ++this.totalClients;
@@ -201,18 +195,29 @@ class MulleServer {
 
 				this.ipClients[ clientIP ]--;
 
+				if( this.ipClients[ clientIP ] <= 0 ) delete this.ipClients[ clientIP ];
+
 			});
 		  
 			ws.on('message', (message) => {
 				
-				var j = JSON.parse(message);
+				var j;
+
+				try {
+					j = JSON.parse(message);
+				} catch( e ) {
+					this.log( ('Client ' + this.pclient( ws ) + ' sent invalid JSON.').red );
+					return;
+				}
+
+				if( !j || typeof j !== 'object' ) return;
 
 				// update player name
 				if( j.name ){
 
 					if(!this.blockInfo['name']) this.log( ('Client ' + this.pclient( ws ) + ' set their name to "' + j.name + '".').cyan );
 
-					ws.playerName = j.name;
+					ws.playerName = String( j.name ).substr(0, 32);
 
 				// update car parts
 				}else if( j.parts ){
@@ -257,6 +262,9 @@ class MulleServer {
 						});
 
 						ws.isInWorld = false;
+
+						// forget the map so re-entering the same map isn't treated as spam
+						ws.currentMap = null;
 
 						this.broadcast('Spelare "' + ( ws.playerName ? ws.playerName : ws.clientId ) + '" lämnade världen.', true);
 
@@ -386,7 +394,7 @@ class MulleServer {
 				// recieve message
 				}else if( j.msg ){
 
-					if( j.msg.length > 140 ) return;
+					if( typeof j.msg !== 'string' || j.msg.length > 140 ) return;
 
 					// broadcast to everyone
 					this.wss.clients.forEach( (client) => {
@@ -412,6 +420,8 @@ class MulleServer {
 				// race time
 				}else if( j.race ){
 
+					if( typeof j.race !== 'number' || !isFinite( j.race ) || j.race <= 0 ) return;
+
 					this.raceTimes.push({
 						name: ws.playerName,
 						client: ws.clientId,
@@ -419,7 +429,7 @@ class MulleServer {
 					});
 
 					this.raceTimes.sort(function(a, b){
-						return a.time > b.time;
+						return a.time - b.time;
 					});
 
 					if( this.raceTimes.length > 10 ){

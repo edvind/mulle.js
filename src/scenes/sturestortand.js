@@ -82,7 +82,7 @@ class StureStortandState extends MulleState {
 
 			var partId = 162;
 
-			this.game.mulle.user.addPart('yard', partId);
+			if( !this.game.mulle.user.hasPart( partId ) ) this.game.mulle.user.addPart('yard', partId);
 
 			this.game.mulle.user.Car.removeCache('#Lemonade');
 

@@ -191,18 +191,16 @@ class MulleCar {
 
 		this.quickProperties.fuelconsumption = this.properties.fuelconsumption;
 
+		this.quickProperties.grip = this.properties.grip;
+
+		this.quickProperties.durability = this.properties.durability;
+
+		this.quickProperties.strength = this.properties.strength;
 
 
-		// criteria
+
+		// criteria, the car has to be above these values to pass the terrain
 		this.criteria = { MudGrip: 8, HolesDurability: 3, BigHill: 3, SmallHill: 2 };
-
-		this.criteria.MudGrip = this.getQuickProperty('grip', 0) > this.criteria.MudGrip ? 1 : 0;
-
-		this.criteria.HolesDurability = this.getQuickProperty('durability', 0) > this.criteria.HolesDurability ? 1 : 0;
-
-		this.criteria.BigHill = this.getQuickProperty('strength', 0) > this.criteria.BigHill ? 1 : 0;
-
-		this.criteria.SmallHill = this.getQuickProperty('strength', 0) > this.criteria.SmallHill ? 1 : 0;
 
 
 

@@ -543,7 +543,7 @@ class MulleDriveCar extends MulleSprite {
 					// mud
 					if( checkNext == 32 ){
 
-						if( this.game.mulle.user.Car.criteria.MudGrip == 0 ){
+						if( this.getQuickProperty('grip') <= this.game.mulle.user.Car.criteria.MudGrip ){
 
 							console.log('mud');
 							
@@ -568,7 +568,7 @@ class MulleDriveCar extends MulleSprite {
 					// rocks
 					if( checkNext == 16 ){
 
-						if( this.game.mulle.user.Car.criteria.HolesDurability == 0 ){
+						if( this.getQuickProperty('durability') <= this.game.mulle.user.Car.criteria.HolesDurability ){
 
 							console.log('rocks');
 							

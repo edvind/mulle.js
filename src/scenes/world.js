@@ -72,7 +72,7 @@ class WorldState extends MulleState {
 
 		this.driveCar.position.set( this.game.mulle.lastSession.carPosition.x, this.game.mulle.lastSession.carPosition.y );
 		
-		this.driveCar.direction = this.game.mulle.lastSession.carDirection;
+		this.driveCar.setDirection( this.game.mulle.lastSession.carDirection );
 
 		this.driveCar.fuelCurrent = this.game.mulle.lastSession.carFuel;
 
@@ -168,7 +168,8 @@ class WorldState extends MulleState {
 
 					var currentRDest = this.activeWorld.rDests[ objectId ];
 
-					if( !this.mapCoordinate.equals( currentRDest ) ){
+					// compare with the map being loaded, this.mapCoordinate is still the previous map
+					if( currentRDest.x != newX || currentRDest.y != newY ){
 
 						console.debug( '[rdest]', 'inactive', objectId, currentRDest.x, currentRDest.y );
 
@@ -228,6 +229,10 @@ class WorldState extends MulleState {
 		this.mapSprite = null;
 		this.mapObjects = null;
 		this.driveCar = null;
+		this.clientCars = null;
+		this.netLoop = null;
+		this.chatInput = null;
+		this.chatHistory = null;
 
 		this.activeWorld = null;
 
@@ -586,7 +591,7 @@ class WorldState extends MulleState {
 
 		if( msg.x && msg.y ){
 
-			if(!this.clients[ msg.i ]){
+			if(!this.clients[ msg.i ] || !this.clients[ msg.i ].car){
 				console.error('invalid client', msg.i);
 				return;
 			}
@@ -615,11 +620,11 @@ class WorldState extends MulleState {
 
 			this.chatLog.push( msg );
 
+			if( this.chatLog.length > 5 ) this.chatLog.splice(0, 1);
+
 			this.chatLog.forEach( (m) => {
 				t += m.p + ': ' + m.msg + "\n";
 			});
-
-			if( this.chatLog.length > 5 ) this.chatLog.splice(0, 1);
 
 			this.chatHistory.text = t.trim("\n");
 
@@ -660,7 +665,8 @@ class WorldState extends MulleState {
 	update(){
 		
 		// fuel meter
-		var fuelAmount = Math.max( 0, Math.min( 16, Math.round( (this.driveCar.fuelCurrent / this.driveCar.fuelMax) * 16 ) ) );
+		// 16 needle frames, index 0-15
+		var fuelAmount = Math.max( 0, Math.min( 15, Math.round( (this.driveCar.fuelCurrent / this.driveCar.fuelMax) * 15 ) ) );
 
 		if( this.lastFuelAmount != fuelAmount ){
 			// this.spriteFuelNeedle.frameName = (27 + ( fuelAmount - 1 )  ).toString();
@@ -779,7 +785,7 @@ class WorldState extends MulleState {
 
 		this.topBitmap.destroy();
 
-		this.clientCars.destroy();
+		if(this.clientCars) this.clientCars.destroy();
 
 		if(this.cutscene){
 			this.cutscene.destroy();

@@ -104,7 +104,7 @@ class MulleGame extends Phaser.Game {
 
 			"86": "solhem",
 			"87": "saftfabrik",
-			"86": "sturestortand",
+			"88": "sturestortand",
 			"89": "viola",
 			"90": "dorisdigital",
 			"91": "luddelabb",
@@ -219,7 +219,7 @@ class MulleGame extends Phaser.Game {
 
 				for( var s in p.sounds ){
 
-					if( p.sounds[s].extraData && id == p.sounds[s].extraData.dirName ){
+					if( p.sounds[s].extraData && id.toLowerCase() == p.sounds[s].extraData.dirName.toLowerCase() ){
 
 						return p.stop( s );
 
