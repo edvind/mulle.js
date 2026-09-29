@@ -13,7 +13,7 @@ import wave, aifc, sunau
 
 import glob
 
-from PIL import Image, ImageDraw, ImagePalette
+from PIL import Image, ImageDraw, ImagePalette, ImageChops
 
 import bitstring
 
@@ -221,9 +221,9 @@ class ShockwaveParser:
 
 	def readString(self, l, big):
 		if big:
-			return self.f.read(l).decode("ansi")[::-1]
+			return self.f.read(l).decode("cp1252")[::-1]
 		else:
-			return self.f.read(l).decode("ansi")
+			return self.f.read(l).decode("cp1252")
 
 	def readLenString(self, big):
 
@@ -233,7 +233,7 @@ class ShockwaveParser:
 		if l == 0:
 			txt = ""
 		else:
-			txt = self.f.read(l).decode("ansi")
+			txt = self.f.read(l).decode("cp1252")
 
 		if self.BigEndian:
 			self.f.seek(1, 1)
@@ -1246,11 +1246,11 @@ class ShockwaveParser:
 							txts.write( textContent )
 							txts.close()
 
-							# entry['text'] = textContent.decode('ansi')
+							# entry['text'] = textContent.decode('cp1252')
 							if not lib in self.textContents:
 								self.textContents[lib] = {}
 
-							self.textContents[lib][num] = textContent.decode('ansi')
+							self.textContents[lib][num] = textContent.decode('cp1252')
 
 
 					if entry['castType'] == CastType.SOUND.value:
@@ -1431,7 +1431,7 @@ class ShockwaveParser:
 
 									if ip == 100:
 										# built in windows palette (dir 4)
-										for b in range(0,255):
+										for b in range(0,256):
 											l = b * 4
 											pal.append( PALETTE_WIN[l+2] )
 											pal.append( PALETTE_WIN[l+1] )
@@ -1439,7 +1439,7 @@ class ShockwaveParser:
 
 									if ip == 0:
 										# built in mac palette
-										for b in range(0,255):
+										for b in range(0,256):
 											l = b * 4
 											pal.append( PALETTE_MAC[l+2] )
 											pal.append( PALETTE_MAC[l+1] )
@@ -1466,7 +1466,7 @@ class ShockwaveParser:
 										dr.point( (x, y), bitmapValues[y][x] )
 									
 							
-							im.save( "C:/temp/swp.bmp", "BMP")
+							pngPath = outPath + "/" + outFileName + ".png"
 							# im.save( outPath + "/" + outFileName + ".bmp", "BMP")
 
 							# regs = str(entry["imageRegX"]) + "x" + str(entry["imageRegY"])
@@ -1474,11 +1474,15 @@ class ShockwaveParser:
 							#if entry["imageWidth"] > 390 or entry["imageHeight"] > 390:
 							if self.baseName in OPAQUE and num in OPAQUE[self.baseName]:
 								print("Opaque!")
-								call("magick convert C:/temp/swp.bmp " + outPath + "/" + outFileName + ".png")
+								im.convert("RGB").save( pngPath, "PNG" )
 								# call("magick convert " + outPath + "/" + outFileName + ".bmp " + outPath + "/" + outFileName + ".png")
 							else:
 								print("Translucent!")
-								call("magick convert C:/temp/swp.bmp -transparent \"#FFFFFF\" " + outPath + "/" + outFileName + ".png")
+								# pure white is the transparent colour
+								rgb = im.convert("RGB")
+								r, g, b = rgb.split()
+								rgb.putalpha( ImageChops.darker( ImageChops.darker(r, g), b ).point( lambda v: 0 if v == 255 else 255 ) )
+								rgb.save( pngPath, "PNG" )
 								# call("magick convert " + outPath + "/" + outFileName + ".bmp -transparent \"#FFFFFF\" " + outPath + "/" + outFileName + ".png")
 
 

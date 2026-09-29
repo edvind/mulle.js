@@ -1,43 +1,36 @@
 {
 	"name": "mulle",
 	"version": "3.0.8",
-	"description": "",
-	"main": "index.js",
+	"description": "Browser port of Mulle Meck bygger bilar, built on Phaser CE",
+	"private": true,
+	"engines": {
+		"node": ">=22"
+	},
 	"scripts": {
-		"build": "gulp",
-		"start": "webpack-dev-server --config webpack.dev.js",
-		"start-prod": "webpack-dev-server --config webpack.prod.js",
-		"server": "node server/server.js"
+		"dev": "vite",
+		"start": "vite",
+		"build": "vite build",
+		"preview": "vite preview",
+		"server": "node server/server.js",
+		"install-assets": "node scripts/python.mjs install_assets.py",
+		"assets": "node scripts/python.mjs assets.py 0",
+		"assets-prod": "node scripts/python.mjs assets.py 7"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+ssh://git@bitbucket.org/MrBrax/mulle.js.git"
+		"url": "git+https://github.com/edvind/mulle.js.git"
 	},
+	"homepage": "https://github.com/edvind/mulle.js#readme",
 	"author": "",
-	"license": "ISC",
-	"homepage": "https://bitbucket.org/MrBrax/mulle.js#readme",
-	"devDependencies": {
-		"babel-core": "^6.26.0",
-		"babel-loader": "^7.1.2",
-		"babel-preset-env": "^1.6.0",
-		"expose-loader": "^0.7.3",
-		"gulp": "^3.9.1",
-		"gulp-exec": "^2.1.3",
-		"gulp-sass": "^3.1.0",
-		"gulp-webpack": "^1.5.0",
-		"phaser-ce": "^2.9.1",
-		"readline": "^1.3.0",
-		"uglifyjs-webpack-plugin": "^0.4.6",
-		"webpack": "^3.7.0",
-		"webpack-merge": "^4.1.0",
-		"webpack-stream": "^4.0.0",
-		"ws": "^3.2.0"
-	},
+	"license": "GPL-3.0",
 	"dependencies": {
 		"colors": "^1.1.2",
-		"gulp-grunt": "^0.5.5",
-		"maxrects-packer": "^1.2.0",
 		"moment": "^2.20.1",
-		"webpack-dev-server": "^2.9.1"
+		"ws": "^3.2.0"
+	},
+	"devDependencies": {
+		"phaser-ce": "^2.20.2",
+		"sass": "^1.105.0",
+		"vite": "^8.3.1"
 	}
 }
