@@ -44,10 +44,12 @@ The optional custom cursors are loaded from `dist/ui/*.png`. Vite warns that it 
 You need your own copy of the original game, either as an ISO image or as a folder (for example the mounted CD). With that, one command installs everything:
 
 ```sh
-python3 -m venv .venv && . .venv/bin/activate
-python3 -m pip install -r requirements.txt
-npm run install-assets -- /path/to/mulle.iso      # or a folder with the game files
+python3 -m venv .venv
+.venv/bin/python -m pip install -r requirements.txt   # Windows: .venv\Scripts\python
+npm run install-assets -- /path/to/mulle.iso          # or a folder with the game files
 ```
+
+The `install-assets`, `assets` and `assets-prod` npm scripts use `.venv`'s Python when it exists, so there's no need to activate it. That also works on systems like Arch or recent Debian/Ubuntu, where pip refuses to install into the system Python.
 
 `install_assets.py` finds the Director files the port uses (`CDDATA.CXT`, `00.CXT` and `02`, `03`, `04`, `05`, `10`, `84`–`88`, `92` and `94.DXR`), copies them to `game/files/`, extracts their cast members into `cst_out_new/` and packs texture atlases, `*-audio.ogg` sprites and a Phaser pack JSON per scene into `dist/assets/`. Add `--optimize 1`–`7` to shrink the atlases with optipng. `game/`, `cst_out_new/`, `dist/` and game files are gitignored; never commit them.
 
@@ -56,8 +58,8 @@ npm run install-assets -- /path/to/mulle.iso      # or a folder with the game fi
 1. **Extract each file** with the Shockwave extractor:
 
    ```sh
-   python3 ShockwaveExtractor.py -i /path/to/game/CDDATA.CXT -e
-   python3 ShockwaveExtractor.py -i /path/to/game/10.DXR -e
+   .venv/bin/python ShockwaveExtractor.py -i /path/to/game/CDDATA.CXT -e
+   .venv/bin/python ShockwaveExtractor.py -i /path/to/game/10.DXR -e
    # ...repeat for each file listed above
    ```
 
@@ -67,8 +69,8 @@ npm run install-assets -- /path/to/mulle.iso      # or a folder with the game fi
 
    ```sh
    mkdir -p dist/assets
-   npm run assets        # same as: python3 assets.py 0 (no PNG optimization)
-   npm run assets-prod   # same as: python3 assets.py 7 (optipng level 7)
+   npm run assets        # assets.py 0 (no PNG optimization)
+   npm run assets-prod   # assets.py 7 (optipng level 7)
    ```
 
    `assets.py` reads from `cst_out_new/`; set `MULLE_CST_PATH` to use another folder.

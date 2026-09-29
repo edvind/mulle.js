@@ -13,11 +13,12 @@ script produces.
 """
 
 import argparse
-import importlib.util
+import importlib
 import os
 import shutil
 import subprocess
 import sys
+import warnings
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 
@@ -28,25 +29,38 @@ REQUIRED_FILES = [
 	'84.DXR', '85.DXR', '86.DXR', '87.DXR', '88.DXR', '92.DXR', '94.DXR',
 ]
 
+# Module to import -> package that provides it. aifc, sunau and pydub's audioop
+# left the standard library in Python 3.13 and come from backports there.
 PYTHON_MODULES = {
 	'PIL': 'Pillow',
 	'PyTexturePacker': 'PyTexturePacker',
-	'pydub': 'pydub',
+	'pydub': 'pydub (and audioop-lts on Python 3.13+)',
+	'aifc': 'standard-aifc',
+	'sunau': 'standard-sunau',
 	'bitstring': 'bitstring',
 	'pycdlib': 'pycdlib',
 }
 
 
 def fail(message):
-	print('error: ' + message, file=sys.stderr)
+	print('error: ' + message, file=sys.stderr, flush=True)
 	sys.exit(1)
 
 
 def check_requirements(optimize):
-	missing = [pkg for mod, pkg in PYTHON_MODULES.items() if importlib.util.find_spec(mod) is None]
+	missing = []
+	for module, package in PYTHON_MODULES.items():
+		try:
+			with warnings.catch_warnings():
+				# pydub warns about ffmpeg on import; that's checked below.
+				warnings.simplefilter('ignore')
+				importlib.import_module(module)
+		except ImportError:
+			missing.append(package)
 	if missing:
 		fail('missing Python packages: ' + ', '.join(missing) + '\n'
-			'Install them with: python3 -m pip install -r requirements.txt')
+			'Install them into a virtualenv, which the npm scripts use automatically:\n'
+			'  python3 -m venv .venv && .venv/bin/python -m pip install -r requirements.txt')
 	if not shutil.which('ffmpeg'):
 		fail('ffmpeg was not found on your PATH. It is needed to convert the game sounds.')
 	if optimize > 0 and not shutil.which('optipng'):
@@ -102,8 +116,8 @@ def copy_from_iso(source, dest):
 
 
 def run(args):
-	print('$ ' + ' '.join(args))
-	env = dict(os.environ, MULLE_CST_PATH=os.path.join(ROOT, 'cst_out_new'))
+	print('$ ' + ' '.join(args), flush=True)
+	env = dict(os.environ, MULLE_CST_PATH=os.path.join(ROOT, 'cst_out_new'), PYTHONUNBUFFERED='1')
 	result = subprocess.run(args, cwd=ROOT, env=env)
 	if result.returncode != 0:
 		fail('%s exited with status %d' % (os.path.basename(args[1]), result.returncode))
@@ -125,7 +139,7 @@ def main():
 	game_dir = os.path.join(ROOT, 'game', 'files')
 	os.makedirs(game_dir, exist_ok=True)
 
-	print('Copying game files from ' + source)
+	print('Copying game files from ' + source, flush=True)
 	if os.path.isdir(source):
 		found = copy_from_folder(source, game_dir)
 	else:
@@ -143,8 +157,8 @@ def main():
 	os.makedirs(os.path.join(ROOT, 'dist', 'assets'), exist_ok=True)
 	run([sys.executable, 'assets.py', str(args.optimize)])
 
-	print('')
-	print('Assets installed in dist/assets. Start the game with: npm run dev')
+	print('', flush=True)
+	print('Assets installed in dist/assets. Start the game with: npm run dev', flush=True)
 
 
 if __name__ == '__main__':
