@@ -157,7 +157,7 @@ class MulleGame extends Phaser.Game {
 
 				for( var s in p.sounds ){
 
-					if( p.sounds[s].extraData && id.toLowerCase() == p.sounds[s].extraData.dirName.toLowerCase() ){
+					if( p.sounds[s].extraData && p.sounds[s].extraData.dirName && id.toLowerCase() == p.sounds[s].extraData.dirName.toLowerCase() ){
 
 						var snd = p.play( s );
 
@@ -219,7 +219,7 @@ class MulleGame extends Phaser.Game {
 
 				for( var s in p.sounds ){
 
-					if( p.sounds[s].extraData && id.toLowerCase() == p.sounds[s].extraData.dirName.toLowerCase() ){
+					if( p.sounds[s].extraData && p.sounds[s].extraData.dirName && id.toLowerCase() == p.sounds[s].extraData.dirName.toLowerCase() ){
 
 						return p.stop( s );
 
