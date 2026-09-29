@@ -20,7 +20,7 @@ A browser port of the Swedish children's game *Mulle Meck bygger bilar* (Gary Ga
 ## Requirements
 
 - **Node.js 22 or newer.**
-- **Python 3** with [Pillow](https://pypi.org/project/Pillow/), [PyTexturePacker](https://pypi.org/project/PyTexturePacker/) and [pydub](https://pypi.org/project/pydub/), only if you want to extract assets.
+- **Python 3** with the packages in `requirements.txt`, only if you want to extract assets.
 - **ffmpeg** on your `PATH`, used for converting sounds to Ogg.
 - **optipng** (optional), only for the production asset build.
 
@@ -41,28 +41,37 @@ The optional custom cursors are loaded from `dist/ui/*.png`. Vite warns that it 
 
 ## Getting the assets
 
-The game data lives in Director movie and cast files on the original CD: `CDDATA.CXT`, `00.CXT` and a set of numbered `.DXR` files (`assets.py` uses `02`, `03`, `04`, `05`, `10`, `84`–`88`, `92` and `94`).
+You need your own copy of the original game, either as an ISO image or as a folder (for example the mounted CD). With that, one command installs everything:
+
+```sh
+python3 -m venv .venv && . .venv/bin/activate
+python3 -m pip install -r requirements.txt
+npm run install-assets -- /path/to/mulle.iso      # or a folder with the game files
+```
+
+`install_assets.py` finds the Director files the port uses (`CDDATA.CXT`, `00.CXT` and `02`, `03`, `04`, `05`, `10`, `84`–`88`, `92` and `94.DXR`), copies them to `game/files/`, extracts their cast members into `cst_out_new/` and packs texture atlases, `*-audio.ogg` sprites and a Phaser pack JSON per scene into `dist/assets/`. Add `--optimize 1`–`7` to shrink the atlases with optipng. `game/`, `cst_out_new/`, `dist/` and game files are gitignored; never commit them.
+
+### Doing it step by step
 
 1. **Extract each file** with the Shockwave extractor:
 
    ```sh
-   python ShockwaveExtractor.py -i /path/to/game/CDDATA.CXT -e
-   python ShockwaveExtractor.py -i /path/to/game/10.DXR -e
+   python3 ShockwaveExtractor.py -i /path/to/game/CDDATA.CXT -e
+   python3 ShockwaveExtractor.py -i /path/to/game/10.DXR -e
    # ...repeat for each file listed above
    ```
 
    Output goes to `cst_out_new/<FILE>/<library>/<member>.png|.wav|.txt`, with a `metadata.json` per file. Other useful flags: `--fileinfo` and `--castinfo` list what a file contains, and `-m <num>` (with `-l <library>`) extracts a single member.
 
-2. **Point `assets.py` at the extracted files.** Open `assets.py` and set `resourcePath` (currently a `<<<<<<<<<<CST STORAGE PATH>>>>>>>>>>` placeholder) to the folder that holds the `cst_out_new/*` directories. The script was written on Windows, so paths are joined with `\\`; on macOS or Linux change those to `/` (or `os.path.join`). The production build also calls `optipng.exe`, so drop the `.exe` there if needed.
-
-3. **Build the asset packs:**
+2. **Build the asset packs:**
 
    ```sh
+   mkdir -p dist/assets
    npm run assets        # same as: python3 assets.py 0 (no PNG optimization)
    npm run assets-prod   # same as: python3 assets.py 7 (optipng level 7)
    ```
 
-   This writes texture atlases, `*-audio.ogg` sprites and a Phaser pack JSON per scene into `dist/assets/`.
+   `assets.py` reads from `cst_out_new/`; set `MULLE_CST_PATH` to use another folder.
 
 ### Regenerating `data/`
 

@@ -12,6 +12,7 @@
 		"build": "vite build",
 		"preview": "vite preview",
 		"server": "node server/server.js",
+		"install-assets": "python3 install_assets.py",
 		"assets": "python3 assets.py 0",
 		"assets-prod": "python3 assets.py 7"
 	},

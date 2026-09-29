@@ -1,0 +1,11 @@
+# Python tools for extracting and packing the game assets (install_assets.py,
+# ShockwaveExtractor.py, assets.py, mulle.py). ffmpeg must also be on your PATH.
+Pillow
+PyTexturePacker
+pydub
+# audioop, aifc and sunau were removed from the standard library in Python 3.13.
+audioop-lts; python_version >= "3.13"
+standard-aifc; python_version >= "3.13"
+standard-sunau; python_version >= "3.13"
+bitstring
+pycdlib
