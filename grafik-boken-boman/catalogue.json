@@ -1,0 +1,2821 @@
+{
+  "source": {
+    "title": "Grafik | Mårten A",
+    "author": "Bengt Boman",
+    "publisher": "Helsinge Konst & Förlag",
+    "year": 2015,
+    "isbn": "978-91-982645-0-0",
+    "section": "Den kompletta katalogen (bok-s. 29–85)",
+    "stated_total": 71
+  },
+  "prints": [
+    {
+      "id": "husguden-1953",
+      "seq": 1,
+      "title": "Husguden",
+      "alt_titles": [],
+      "artist": "Mårten Andersson",
+      "technique": "Litografi",
+      "year": 1953,
+      "dimensions_text": "41 x 27 cm",
+      "height_cm": 41.0,
+      "width_cm": 27.0,
+      "edition_size": 3,
+      "edition_text": "Tre exemplar.",
+      "edition_source": "own",
+      "portfolio": null,
+      "series": null,
+      "hand_colored": false,
+      "is_auxiliary_sheet": false,
+      "description": "Sitt första grafiska blad gjorde Mårten som elev på Konstfack i Stockholm. Han påbörjade sin tvååriga utbildning 1952, året efter kom Husguden, ett elevarbete tryckt på sten som finns i endast sju exemplar. Tre av dem är numrerade 1-3, resterande fyra är provtryck.",
+      "captions": [
+        "Grafik tilltalar Mårten Andersson eftersom det är en konstform som når ut till många. Litografin Husguden är konstnärens första grafiska verk."
+      ],
+      "notes": null,
+      "book_pages": [
+        30
+      ],
+      "image_book_pages": [
+        30
+      ],
+      "pdf_pages": [
+        27
+      ],
+      "review_flags": [
+        "Upplagan anges som tre exemplar (numrerade 1-3); därtill fyra provtryck, totalt sju."
+      ]
+    },
+    {
+      "id": "kyssen-1962",
+      "seq": 2,
+      "title": "Kyssen",
+      "alt_titles": [],
+      "artist": "Mårten Andersson",
+      "technique": "Litografi",
+      "year": 1962,
+      "dimensions_text": "52 x 32 cm",
+      "height_cm": 52.0,
+      "width_cm": 32.0,
+      "edition_size": 260,
+      "edition_text": "260 exemplar.",
+      "edition_source": "own",
+      "portfolio": null,
+      "series": null,
+      "hand_colored": false,
+      "is_auxiliary_sheet": false,
+      "description": "Med Kyssen gjorde Mårten Andersson sin debut på Konstfrämjandet. När bladet kom ut ansågs det i en del kretsar som kitchigt, vissa benämnde det till och med som hötorgskonst, precis motsatsen till idén med bildandet av främjandet. God konst till alla, var ju varumärket.\nMen vare sig Mårten eller Bror Ejve (1897-1962), en av de entusiastiska grundarna och den som byggde upp Konstfrämjandet, lyssnade på det örat. Inte minst Ejve var säker på sin sak och folket skulle ge honom rätt. Kyssen blev en framgång och sålde snart slut.\nSamarbetet mellan konstnären och främjandet varade länge, till och med 1988. Då rundade Mårten av med två litografier, varav en i form av ännu en kyss (se sidan 69). Det var också då de båda kyssarna fick nummer efter sig.\nLitografin är den enda i Mårten Anderssons hela grafiska produktion där han, på de flesta av bladen, signerat med både för- och efternamn.",
+      "captions": [
+        "Mårten gjorde en succéartad debut på Konstfrämjandet med litografin Kyssen. Tvivlare fanns, men bladet gick hem hos folket och sålde snart slut."
+      ],
+      "notes": null,
+      "book_pages": [
+        30,
+        31
+      ],
+      "image_book_pages": [
+        31
+      ],
+      "pdf_pages": [
+        27,
+        28
+      ],
+      "review_flags": [
+        "Kallas i folkmun Kyssen 1, officiellt bara Kyssen."
+      ]
+    },
+    {
+      "id": "pa-faboden-1965",
+      "seq": 3,
+      "title": "På fäboden",
+      "alt_titles": [],
+      "artist": "Mårten Andersson",
+      "technique": "Litografi",
+      "year": 1965,
+      "dimensions_text": "35 x 27 cm",
+      "height_cm": 35.0,
+      "width_cm": 27.0,
+      "edition_size": 200,
+      "edition_text": "200 exemplar.",
+      "edition_source": "own",
+      "portfolio": null,
+      "series": null,
+      "hand_colored": false,
+      "is_auxiliary_sheet": false,
+      "description": "Fäbodjäntan klappar sin ko, getterna skuttar runt till tonerna av fiolmusik och den skönt tillbakalutade spelmannen får ackompanjemang av den brusande forsen. Bor man dessutom i ett Mårten-hus av bästa märke är lyckan fullständig. Bättre än så här kan man inte ha det.\nEn variant av motivet på bladets nedre del målade Mårten 1984. Det finns som utsmyckning vid folkparken Skeer i Orsa.",
+      "captions": [
+        "Det goda livet. På fäboden strålar det av lycka."
+      ],
+      "notes": null,
+      "book_pages": [
+        32,
+        33
+      ],
+      "image_book_pages": [
+        32
+      ],
+      "pdf_pages": [
+        29,
+        30
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "fest-i-stugan-1967",
+      "seq": 4,
+      "title": "Fest i stugan",
+      "alt_titles": [],
+      "artist": "Mårten Andersson",
+      "technique": "Linoleumtryck",
+      "year": 1967,
+      "dimensions_text": "20 x 32 cm",
+      "height_cm": 20.0,
+      "width_cm": 32.0,
+      "edition_size": null,
+      "edition_text": "Okänt, saknar numrering.",
+      "edition_source": "own",
+      "portfolio": null,
+      "series": null,
+      "hand_colored": false,
+      "is_auxiliary_sheet": false,
+      "description": "Det första av tre linoleumtryck i konstnärens grafiska produktion. Tekniken går ut på att man skär ut det som ska vara vitt ur en platta av linoleum (kork), plattan färgas därefter in med en gummivals innan allt går till tryck. Mårten skar ur korken hemma på köksbordet i Freluga.\nFest i stugan är ett beställningsarbete från Gävleborgs konstförening. Noterbart är att bladet är onumrerat, endast signerat. Det är därför okänt hur många exemplar som finns. Konstnären själv vet inte heller.",
+      "captions": [
+        "Fest i stugan.",
+        "Till vänster: Efter tre litografier var det dags för det första, onumrerade linoleumtrycket. Fest i stugan var ett beställningsjobb av Gävleborgs konstförening."
+      ],
+      "notes": null,
+      "book_pages": [
+        33
+      ],
+      "image_book_pages": [
+        33
+      ],
+      "pdf_pages": [
+        30
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "livet-ar-en-drom-1968",
+      "seq": 5,
+      "title": "Livet är en dröm",
+      "alt_titles": [
+        "Tårtpapperet",
+        "Carmen",
+        "La vita è un sogno"
+      ],
+      "artist": "Mårten Andersson",
+      "technique": "Litografi",
+      "year": 1968,
+      "dimensions_text": "38 x 50 cm",
+      "height_cm": 38.0,
+      "width_cm": 50.0,
+      "edition_size": 350,
+      "edition_text": "350 exemplar.",
+      "edition_source": "own",
+      "portfolio": "Samlingsportfölj med sex konstnärer (Mårten Andersson, Lennart Jirlow, Lars Huck Hultgren, Gösta Gustavson, Inger Rydén, Arvid Widerberg)",
+      "series": null,
+      "hand_colored": false,
+      "is_auxiliary_sheet": false,
+      "description": "Litografin med många namn. Livet är en dröm är det mest vanliga, men en del säger Tårtpapperet eller Carmen. Det räcker med en snabb titt på bladet för att se att det finns bäring för alla.\nFast Tårtpapperet är ändå inte riktigt relevant, för det som kan tas för ett tårtpapper är egentligen ett textilt konstverk som kallas brysselspets. Det var en sådan som konstnären utgick ifrån när han utförde bladet.\nEtt fjärde namn finns också, det ursprungliga, som är La vita è un sogno, Livet är en dröm på italienska. Här har således konstnären inspirerats av Italien, eller så är det namnet på asken, Carmen, som fört tankarna till sydligare nejder. Och i Mårtens värld är det inte långt mellan Italien och den fäbod i Hertsjö utanför Bollnäs där han en gång hittade asken. Nu ligger den på en hylla i köket hemma i bostaden i Stockholm. Om någon undrar över om den bruna fläcken på fatet så ska den vara där. Det är bara en skärva som gått ur.\nLivet är en dröm ingår i en portfölj innehållande grafiska verk av sex olika konstnärer. De är, förutom Mårten, Lennart Jirlow, Lars Huck Hultgren, Gösta Gustavson, Inger Rydén och Arvid Widerberg. Bladen är sedan länge spridda och det är sällan man ser en obruten portfölj.",
+      "captions": [
+        "Asken i original.",
+        "La vita è un sogno, Livet är en dröm, Carmen eller Tårtpapperet. Så här ser litografin med många namn ut. Det är bara att välja."
+      ],
+      "notes": null,
+      "book_pages": [
+        33
+      ],
+      "image_book_pages": [
+        33
+      ],
+      "pdf_pages": [
+        30
+      ],
+      "review_flags": [
+        "Ingår i en samlingsportfölj med sex konstnärer; portföljens namn och år anges inte i boken."
+      ]
+    },
+    {
+      "id": "skapet-1970",
+      "seq": 6,
+      "title": "Skåpet",
+      "alt_titles": [
+        "Stora skåpet"
+      ],
+      "artist": "Mårten Andersson",
+      "technique": "Litografi",
+      "year": 1970,
+      "dimensions_text": "73 x 54 cm",
+      "height_cm": 73.0,
+      "width_cm": 54.0,
+      "edition_size": 200,
+      "edition_text": "200 exemplar.",
+      "edition_source": "own",
+      "portfolio": null,
+      "series": null,
+      "hand_colored": false,
+      "is_auxiliary_sheet": false,
+      "description": "Ett magnifikt skåp med en magnifik historia, även den signerad Mårten A.\nMetaren på skåpdörren till vänster bor i huset längst ned. Han har på morgonen gett sig ut på sjön för att fiska, men först stärkt sig med en skvätt brännvin. Efter en dag i båten bär det mot kvällningen hemåt igen för kaffe. Lite av dagens fångst har han förhoppningsvis också fått i sig innan det är dags att krypa till kojs.\nNågon kan kanske tycka att karaffen med snapsglaset och kaffekannan borde byta plats, för en hutt till första frukost är väl inte att rekommendera, den kan väl metaren vänta med tills han kommer hem.\nPyttsan, inte går det att sitta på sjön en hel dag utan någonting starkt innanför västen.\nOch på tal om att krypa till kojs: skåpet är en del av det sängskåp som Mårten sovit många nätter i. Det är fortfarande i hans ägo.",
+      "captions": [
+        "Skåpet är ett av de allmogeföremål i Mårtens ägo som stått modell för en grafisk utgåva. Det är egentligen ett sängskåp och finns i ateljén hemma i Freluga."
+      ],
+      "notes": null,
+      "book_pages": [
+        34
+      ],
+      "image_book_pages": [
+        34
+      ],
+      "pdf_pages": [
+        31
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "brudparet-1972",
+      "seq": 7,
+      "title": "Brudparet",
+      "alt_titles": [],
+      "artist": "Mårten Andersson",
+      "technique": "Litografi",
+      "year": 1972,
+      "dimensions_text": "68 x 54 cm, 83 x 61 cm vid handkolorering även i marginalen",
+      "height_cm": 68.0,
+      "width_cm": 54.0,
+      "edition_size": 200,
+      "edition_text": "200 exemplar.",
+      "edition_source": "own",
+      "portfolio": null,
+      "series": null,
+      "hand_colored": true,
+      "is_auxiliary_sheet": false,
+      "description": "Brudparet finns i flera olika varianter, varav det här är det första. Bladet utfördes med avsikten att det skulle handkoloreras, konstnären skulle således måla med akvarell- eller gouachefärger på den färdiga litografin.\nSå skedde också, till en början. Efter drygt hundra handkolorerade exemplar började det dock ta emot och Mårten valde då att avbryta – och kassera den återstående upplagan. Några omålade exemplar slank dock igenom.\nKonstnären uppskattar antalet brudpar till cirka 125, av de 200 som det var tänkt och som numreringen anger. Merparten är således handkolorerade, en del endast på själva bilden, andra även i marginalen. Vissa har konstnären lagt ned mer krut på än andra, de riktigt genomarbetade är oftast signerade \"akvarell och litografi\". Mårten själv säger att många brudpar egentligen är akvareller gjorda på grafiska blad. Inte tvärtom.",
+      "captions": [
+        "De omålade brudparen är färre till antalet än de målade.",
+        "Så här kan ett handkolorerat brudpar också se ut.",
+        "Ett av konstnärens favoritmotiv. Brudparet finns i flera olika varianter, varav det här från 1972 är det första. De flesta bladen i upplagan är handkolorerade."
+      ],
+      "notes": null,
+      "book_pages": [
+        34,
+        35
+      ],
+      "image_book_pages": [
+        34,
+        35
+      ],
+      "pdf_pages": [
+        31,
+        32
+      ],
+      "review_flags": [
+        "Numreringen anger 200, men konstnären uppskattar att bara cirka 125 exemplar finns (resten kasserades)."
+      ]
+    },
+    {
+      "id": "teklas-hus-1973",
+      "seq": 8,
+      "title": "Teklas hus",
+      "alt_titles": [],
+      "artist": "Mårten Andersson",
+      "technique": "Litografi",
+      "year": 1973,
+      "dimensions_text": "57,5 x 43,5 cm",
+      "height_cm": 57.5,
+      "width_cm": 43.5,
+      "edition_size": 280,
+      "edition_text": "280 exemplar.",
+      "edition_source": "portfolio",
+      "portfolio": "Fem brev från byn",
+      "series": null,
+      "hand_colored": false,
+      "is_auxiliary_sheet": false,
+      "description": "Husets mystik, den dramatiska himlen och palmerna som symboliserar längtan efter värme – det torde vara de främsta anledningarna till att Teklas hus är den kanske mest eftertraktade av Mårten Anderssons litografier.\nHuset som fascinerar så många finns inte bara i form av ett grafiskt blad signerad Mårten A, utan även i verkligheten. Det står där efter en liten väg i Sörbo utanför Bollnäs. Det är tomt och öde, aldrig färdigbyggt, aldrig målat och alldeles fantastiskt att skåda.\nHär är historien om Teklas hus:\nDet byggdes någon gång mellan 1910 och 1915 av Erik Persson, Skölds-Erik, från Sörbo. I en av granngårdarna bodde en familj som kommit från Dalarna i början av seklet, dottern i familjen var Tekla Andersson.\n1920 köpte den då 35-åriga Tekla huset av Skölds-Erik. Tillsammans med pappa Anders och sina två små barn, Annie (född 1917) och Algot (född 1919), flyttade Tekla in. Mamma Margareta hade gått bort några år tidigare.\nLivet var hårt på den här tiden och inte blev det bättre av att bo i ett hus som varken var färdigbyggt eller målat. Det var svårt att stå emot kylan under kalla vintrar. Dessutom var Tekla ensamstående med två små barn, ett faktum som förfärade de i omgivningen med så kallad hög moral.\nMen Tekla kämpade på i sitt hus, även sedan pappa Anders gått bort.\nDottern Annie var den som led mest av alla umbäranden och på 1930-talet blev hon sjuk i tuberkulos. Annie fick vård på sanatoriet i Mohed, piggade på sig och när hon kom hem igen var huset i lite bättre skick än tidigare. Tekla hade fått hjälp med att lappa ihop det på de mest trasiga och dragiga ställena. Någon målarfärg hade hon dock inte råd med.\nI 20 år bodde Tekla, Annie och Algot i huset. 1940 sålde hon och flyttade med barnen till Änga utanför Bollnäs. Blivande sonhustrun följde också med. Hon var sömmerska med egen ateljé och eftersom de flesta av hennes kunder bodde i centrala Bollnäs flyttade familjen, inklusive Tekla, dit, till ett hus på Norrlandsvägen.\nDet blev Tekla Anderssons sista adress. Hon gick bort 1947, 62 år gammal.\nAnnie och Algot flyttade senare till Stockholm, där de blev kvar livet ut.\nThure Andersson hette han som köpte huset av Tekla när hon flyttade till Änga. Det har sedan gått i arv och ägs i dag av hans barnbarn Anita Thuresson i Bollnäs.\nHon har genom åren använt det som förråd och inte funderat på det så mycket mer.\n\"Det liksom bara finns där, som det alltid har gjort\".\nAldrig färdigbyggt, aldrig målat och alldeles fantastiskt att skåda.\nMårten Andersson upptäckte Teklas hus i mitten på 1950-talet, då han under en sommar bodde i målarstuga i Fjäle, grannby till Sörbo. Den tillhörde en kvinna, Lisa Jonsson, som hade en vision om en konstnärskoloni i sin hemtrakt.\nDärför frågade hon Mårten om han kunde ta med sig några konstnärer och bosätta sig i hennes stuga en sommar och måla.\nDet slutade med att Mårten tog med sig Lennart Jirlow, Björn Melin och Kurt Beckman, vänner och studiekamrater från Konstfack, och flyttade in i målarstugan, vackert belägen vid en plats där Anneforsån bildar en damm.\n\"Vi jobbade, diskuterade och blev jävligt osams. Mitt upp i alltihop hade vi fantastiskt roligt. Min lyckligaste tid som konstnär\", har Mårten tidigare sagt.\nDet var under en av många upptäcktsfärder i omgivningarna han upptäckte Teklas hus. Redan vid första anblicken kände Mårten att han måste måla det.\nOriginalet i akvarell är daterat 1957, sexton år senare kom Teklas hus som litografi.",
+      "captions": [
+        "Den här minimodellen av Teklas hus gjorde Jerker Andersson när han gick på gymnasiet.",
+        "Mårten pratar mycket om sin strävan efter mystik och magi i sina bilder. I Teklas hus har allt fallit på plats. Så här ser originalet ut. Målningen i akvarell är utförd 1957.",
+        "Teklas hus byggdes för cirka 100 år sedan och finns fortfarande. Det står efter en liten väg i Sörbo utanför Bollnäs och har blivit ett populärt turistmål. Huset är i dåligt skick, men mystiken rår tidens tand inte på.",
+        "Del av fasaden på Teklas hus.",
+        "Teklas hus är en av Mårten Anderssons mest eftertraktade litografier. Det är inte svårt att förstå varför."
+      ],
+      "notes": null,
+      "book_pages": [
+        38,
+        39,
+        40,
+        41
+      ],
+      "image_book_pages": [
+        40
+      ],
+      "pdf_pages": [
+        35,
+        36,
+        37,
+        38
+      ],
+      "review_flags": [
+        "Teknik och år anges bara för portföljen, inte per blad."
+      ]
+    },
+    {
+      "id": "jagaren-och-hans-torn-1973",
+      "seq": 9,
+      "title": "Jägaren och hans torn",
+      "alt_titles": [],
+      "artist": "Mårten Andersson",
+      "technique": "Litografi",
+      "year": 1973,
+      "dimensions_text": "42,5 x 52 cm",
+      "height_cm": 42.5,
+      "width_cm": 52.0,
+      "edition_size": 280,
+      "edition_text": "280 exemplar.",
+      "edition_source": "portfolio",
+      "portfolio": "Fem brev från byn",
+      "series": null,
+      "hand_colored": false,
+      "is_auxiliary_sheet": false,
+      "description": "En riktig Andersson, som Mårten själv brukar säga. \"Riktig\" såtillvida att den är fylld av de symboler som har en så stark innebörd för konstnären. Jägaren med hunden, det rytande lejonet, svanen, tornet, eller jaktslottet samt de blånande bergen. Här har även den inte lika vanligt förekommande tigern fått ta plats.\nJägaren och hans torn finns i flera varianter och utföranden, varav den stora målningen Jaktslottet är den mest kända. Under några sommar- och höstmånader 1958 bodde Mårten hos moster Astrid Andersson i Simeå, några mil norr om Bollnäs, och dagarna ägnade han sig åt att utforska de djupa hälsingeskogarna.\nDet färdiga resultatet av alla skogsvandringar och allt skissande blev praktverket Jaktslottet. Den anses som en av konstnärens mest betydande målningar och den gav Mårten hans första miljonnotering på auktion när den klubbades på Bukowskis 2009.",
+      "captions": [
+        "Jägarens och hans torn är den litografi i Mårtens produktion med flest antal symboler. Dessa är mångtydiga, även för konstnären själv."
+      ],
+      "notes": null,
+      "book_pages": [
+        42
+      ],
+      "image_book_pages": [
+        42
+      ],
+      "pdf_pages": [
+        39
+      ],
+      "review_flags": [
+        "Teknik och år anges bara för portföljen, inte per blad."
+      ]
+    },
+    {
+      "id": "vinter-i-edstuga-1973",
+      "seq": 10,
+      "title": "Vinter i Edstuga",
+      "alt_titles": [],
+      "artist": "Mårten Andersson",
+      "technique": "Litografi",
+      "year": 1973,
+      "dimensions_text": "27 x 39 cm, inklusive några skatfötter i marginalen",
+      "height_cm": 27.0,
+      "width_cm": 39.0,
+      "edition_size": 280,
+      "edition_text": "280 exemplar.",
+      "edition_source": "portfolio",
+      "portfolio": "Fem brev från byn",
+      "series": null,
+      "hand_colored": false,
+      "is_auxiliary_sheet": false,
+      "description": "En kall vinterdag i Edstuga, granby till Mårtens Freluga. Det eldas i stugorna och röken står rakt upp. Endast skatan vågar sig ut.\nAnledningen till att bilden här inte är skuren jäms med marginalen är att alla spår i snön efter skatan då skulle försvinna, spår som ger bladet ytterligare en dimension.\nPå en del blad har konstnären handkolorerat röken. I vissa fall – främst på provtryck – har han låtit röken stiga så långt marginalen tillåter.",
+      "captions": [
+        "Edstuga är granby med Mårtens Freluga och från Edstuga var Mårtens mamma Klara Adolfina. Här är det full vinter i Edstuga, endast skatan vågar sig ut."
+      ],
+      "notes": null,
+      "book_pages": [
+        43
+      ],
+      "image_book_pages": [
+        43
+      ],
+      "pdf_pages": [
+        40
+      ],
+      "review_flags": [
+        "Teknik och år anges bara för portföljen, inte per blad."
+      ]
+    },
+    {
+      "id": "midsommarnattsdrom-1973",
+      "seq": 11,
+      "title": "Midsommarnattsdröm",
+      "alt_titles": [],
+      "artist": "Mårten Andersson",
+      "technique": "Litografi",
+      "year": 1973,
+      "dimensions_text": "27 x 35,5 cm",
+      "height_cm": 27.0,
+      "width_cm": 35.5,
+      "edition_size": 280,
+      "edition_text": "280 exemplar.",
+      "edition_source": "portfolio",
+      "portfolio": "Fem brev från byn",
+      "series": null,
+      "hand_colored": false,
+      "is_auxiliary_sheet": false,
+      "description": "Alla drömmer väl om en förtrollad midsommar, där det dansas långt in på natten och kärleken spirar. Men bland gemenskapen och lyckan finns även ensamhet, som hos kvinnan längst ned till vänster på bladet.\nMycket Mårten på liten yta.",
+      "captions": [
+        "Drömskt och förtrollat, men även en del vemod. Så ser konstnärens bild av en svensk midsommar ut."
+      ],
+      "notes": null,
+      "book_pages": [
+        44
+      ],
+      "image_book_pages": [
+        44
+      ],
+      "pdf_pages": [
+        41
+      ],
+      "review_flags": [
+        "Teknik och år anges bara för portföljen, inte per blad."
+      ]
+    },
+    {
+      "id": "gumma-med-ko-1973",
+      "seq": 12,
+      "title": "Gumma med ko",
+      "alt_titles": [],
+      "artist": "Mårten Andersson",
+      "technique": "Litografi",
+      "year": 1973,
+      "dimensions_text": "40,5 x 35,5 cm",
+      "height_cm": 40.5,
+      "width_cm": 35.5,
+      "edition_size": 280,
+      "edition_text": "280 exemplar.",
+      "edition_source": "portfolio",
+      "portfolio": "Fem brev från byn",
+      "series": null,
+      "hand_colored": false,
+      "is_auxiliary_sheet": false,
+      "description": "Det här brevet berättar om vardagligt slit, men också om ett gott liv. Det skrev Mårten från en fäbod någonstans i Hälsingland.\nI motsatts till röken i marginalen på Vinter i Edstuga är röken här inte handkolorerad.",
+      "captions": [
+        "Motivet till Gumma med ko fann Mårten någonstans i Hälsingland."
+      ],
+      "notes": null,
+      "book_pages": [
+        44
+      ],
+      "image_book_pages": [
+        44
+      ],
+      "pdf_pages": [
+        41
+      ],
+      "review_flags": [
+        "Teknik och år anges bara för portföljen, inte per blad."
+      ]
+    },
+    {
+      "id": "sommarnatt-1974",
+      "seq": 13,
+      "title": "Sommarnatt",
+      "alt_titles": [
+        "Sparbanksbladet"
+      ],
+      "artist": "Mårten Andersson",
+      "technique": "Litografi",
+      "year": 1974,
+      "dimensions_text": "40 x 55 cm",
+      "height_cm": 40.0,
+      "width_cm": 55.0,
+      "edition_size": 360,
+      "edition_text": "360 exemplar.",
+      "edition_source": "own",
+      "portfolio": null,
+      "series": null,
+      "hand_colored": false,
+      "is_auxiliary_sheet": false,
+      "description": "Idyllerna kommer på rad i Mårtens produktion. Här ännu en bild att bli glad över. Sparbanksbladet, som det oftast kallas, gjordes på beställning av Gävleborgs Sparbank till deras 150-årsjubileum. Den stora förlagan i olja finns i entrén till Swedbank i Gävle.",
+      "captions": [
+        "När Gävleborgs sparbank fyllde 150 år fick Mårten Andersson i uppdrag att göra en jubileumstavla. Resultatet blev en stor oljemålning och litografin Sommarnatt."
+      ],
+      "notes": null,
+      "book_pages": [
+        45
+      ],
+      "image_book_pages": [
+        45
+      ],
+      "pdf_pages": [
+        42
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "apelsintradet-1975",
+      "seq": 14,
+      "title": "Apelsinträdet",
+      "alt_titles": [],
+      "artist": "Mårten Andersson",
+      "technique": "Litografi",
+      "year": 1975,
+      "dimensions_text": "34,5 x 27,5 cm",
+      "height_cm": 34.5,
+      "width_cm": 27.5,
+      "edition_size": 300,
+      "edition_text": "300 exemplar.",
+      "edition_source": "portfolio",
+      "portfolio": "Italienska trädgårdar",
+      "series": null,
+      "hand_colored": false,
+      "is_auxiliary_sheet": false,
+      "description": "På pensionat Villa Mora, i stadsdelen Tireno, i Palma på Mallorca, bodde Mårten när han inspirerades till det här motivet. Apelsinträdet fanns i pensionatets trädgård.",
+      "captions": [
+        "Villa Mora hette ett pensionat i Palma på Mallorca. Mårten bodde där första gången i slutet av 1950-talet. I trädgården utanför växte apelsinträdet."
+      ],
+      "notes": null,
+      "book_pages": [
+        46,
+        48
+      ],
+      "image_book_pages": [
+        48
+      ],
+      "pdf_pages": [
+        43,
+        45
+      ],
+      "review_flags": [
+        "Teknik och år anges bara för portföljen, inte per blad."
+      ]
+    },
+    {
+      "id": "prastkragarna-1975",
+      "seq": 15,
+      "title": "Prästkragarna",
+      "alt_titles": [],
+      "artist": "Mårten Andersson",
+      "technique": "Litografi",
+      "year": 1975,
+      "dimensions_text": "34,5 x 27 cm",
+      "height_cm": 34.5,
+      "width_cm": 27.0,
+      "edition_size": 300,
+      "edition_text": "300 exemplar.",
+      "edition_source": "portfolio",
+      "portfolio": "Italienska trädgårdar",
+      "series": null,
+      "hand_colored": false,
+      "is_auxiliary_sheet": false,
+      "description": "Kvar på pensionatet Villa Mora i Palma, fast prästkragarna är från en annan trädgård, nära den med apelsinträdet. Villa Mora ligger för övrigt inte långt från Plaza Gomilia, en av samlingsplatserna i Palma.\nOriginalet i akvarell, daterat 1960, ingick bokhandlare Bengt Helins (1931-2011) stora Mårtensamling. Delar av den, inklusive Prästkragarna, gick under klubban på Stockholms auktionsverk samma år som Helin gick bort.",
+      "captions": [
+        "Mårten botaniserar friskt på de platser han besöker. Prästkragarna hittade han i en av Palmas många trädgårdar."
+      ],
+      "notes": null,
+      "book_pages": [
+        46
+      ],
+      "image_book_pages": [
+        46
+      ],
+      "pdf_pages": [
+        43
+      ],
+      "review_flags": [
+        "Teknik och år anges bara för portföljen, inte per blad."
+      ]
+    },
+    {
+      "id": "katten-och-fageln-1975",
+      "seq": 16,
+      "title": "Katten och fågeln",
+      "alt_titles": [
+        "Den rosa muren"
+      ],
+      "artist": "Mårten Andersson",
+      "technique": "Litografi",
+      "year": 1975,
+      "dimensions_text": "34,5 x 27 cm",
+      "height_cm": 34.5,
+      "width_cm": 27.0,
+      "edition_size": 300,
+      "edition_text": "300 exemplar.",
+      "edition_source": "portfolio",
+      "portfolio": "Italienska trädgårdar",
+      "series": null,
+      "hand_colored": false,
+      "is_auxiliary_sheet": false,
+      "description": "Kunde även ha fått namnet Den rosa muren, för det är varken katten eller fågeln konstnären främst vill skildra. Det är muren, de man ser så många av i Italien. Att den här har fått en mer orange färg har med kompositionen i övrigt att göra.",
+      "captions": [
+        "Katten och fågeln heter den här bilden från Italien. Fast egentligen var det muren bakom som Mårten ville skildra."
+      ],
+      "notes": null,
+      "book_pages": [
+        46
+      ],
+      "image_book_pages": [
+        46
+      ],
+      "pdf_pages": [
+        43
+      ],
+      "review_flags": [
+        "Teknik och år anges bara för portföljen, inte per blad."
+      ]
+    },
+    {
+      "id": "tradgard-fran-neapel-1975",
+      "seq": 17,
+      "title": "Trädgård från Neapel",
+      "alt_titles": [],
+      "artist": "Mårten Andersson",
+      "technique": "Litografi",
+      "year": 1975,
+      "dimensions_text": "35 x 27 cm",
+      "height_cm": 35.0,
+      "width_cm": 27.0,
+      "edition_size": 300,
+      "edition_text": "300 exemplar.",
+      "edition_source": "portfolio",
+      "portfolio": "Italienska trädgårdar",
+      "series": null,
+      "hand_colored": false,
+      "is_auxiliary_sheet": false,
+      "description": "Efter en tid i San Michele på Capri kom konstnären hit, till ett slott beläget i en trädgård i Neapel i södra Italien. Mårten bodde i slottet tillsammans med den finlandssvenske författaren Edvard Gummerus (1905-1991) och hans familj, bland andra sonen Teddy Gummerus (1939-1999), författare av boken om Mårten Andersson från 1978.\nFrån Teklas hus i Sörbo till Neapel har den dramatiska himlen följt med.\nÄven originalet av Trädgård från Neapel tillhörde bokhandlare Bengt Helin från Bollnäs och såldes vid samma tillfälle som Prästkragarna, det vill säga när delar av Helins stora konstsamling auktionerades ut 2011.",
+      "captions": [
+        "Från en trädgård i Neapel. Mårten bodde i slottet som hör till."
+      ],
+      "notes": null,
+      "book_pages": [
+        46,
+        47
+      ],
+      "image_book_pages": [
+        47
+      ],
+      "pdf_pages": [
+        43,
+        44
+      ],
+      "review_flags": [
+        "Teknik och år anges bara för portföljen, inte per blad."
+      ]
+    },
+    {
+      "id": "jagaren-1975",
+      "seq": 18,
+      "title": "Jägaren",
+      "alt_titles": [],
+      "artist": "Mårten Andersson",
+      "technique": "Litografi",
+      "year": 1975,
+      "dimensions_text": "26,5 x 34,5 cm",
+      "height_cm": 26.5,
+      "width_cm": 34.5,
+      "edition_size": 300,
+      "edition_text": "300 exemplar.",
+      "edition_source": "portfolio",
+      "portfolio": "Italienska trädgårdar",
+      "series": null,
+      "hand_colored": false,
+      "is_auxiliary_sheet": false,
+      "description": "Här har konstnären flyttat till Florens. Byggnaden är entrén till ett palats där och Mårten gick genom trädgården varje gång han skulle hem till bostaden.\nFlaggan i fören på jägarens båt är från ett land som finns endast i Mårtens värld.",
+      "captions": [
+        "Jägaren dyker upp i olika varianter lite då och då. Den här jägaren är från Florens."
+      ],
+      "notes": null,
+      "book_pages": [
+        47
+      ],
+      "image_book_pages": [
+        47
+      ],
+      "pdf_pages": [
+        44
+      ],
+      "review_flags": [
+        "Teknik och år anges bara för portföljen, inte per blad."
+      ]
+    },
+    {
+      "id": "moster-annas-skap-1975",
+      "seq": 19,
+      "title": "Moster Annas skåp",
+      "alt_titles": [
+        "Lilla skåpet"
+      ],
+      "artist": "Mårten Andersson",
+      "technique": "Litografi",
+      "year": 1975,
+      "dimensions_text": "35 x 27 cm",
+      "height_cm": 35.0,
+      "width_cm": 27.0,
+      "edition_size": 200,
+      "edition_text": "200 exemplar.",
+      "edition_source": "own",
+      "portfolio": null,
+      "series": null,
+      "hand_colored": false,
+      "is_auxiliary_sheet": false,
+      "description": "Första gången Mårten stiftade bekantskap med det här skåpet var hos mostern Anna i hennes lägenhet på Gärdet i Bollnäs. Barockstolen är från gården Rikes i Arbrå och spegeln är hallstämplad Söderhamn. Samtliga föremål har gått i arv till konstnären. Liksom kaffekannan, som är densamma som på litografin Stora skåpet.",
+      "captions": [
+        "Mårten var i 40-årsåldern när han fick inspiration till Lilla Skåpet, som litografin för det mesta kallas. Skåpet fanns då hemma hos hans moster Anna i Bollnäs.",
+        "Moster Annas skåp har gått i arv och står nu hos Mårten i Stockholm."
+      ],
+      "notes": null,
+      "book_pages": [
+        50
+      ],
+      "image_book_pages": [
+        50
+      ],
+      "pdf_pages": [
+        47
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "flottarens-lagenhet-sedan-han-blivit-matthandlare-1976",
+      "seq": 20,
+      "title": "Flottarens lägenhet sedan han blivit matthandlare",
+      "alt_titles": [],
+      "artist": "Mårten Andersson",
+      "technique": "Litografi",
+      "year": 1976,
+      "dimensions_text": "35 x 26,5 cm",
+      "height_cm": 35.0,
+      "width_cm": 26.5,
+      "edition_size": 200,
+      "edition_text": "200 exemplar.",
+      "edition_source": "own",
+      "portfolio": null,
+      "series": null,
+      "hand_colored": false,
+      "is_auxiliary_sheet": false,
+      "description": "Med namnet Flottarens lägenhet sedan han blivit matthandlare kan en timmerbröt och ett par mattor bli till vacker poesi. Kättingarna som hänger i taket minner om en svunnen industriepok i Hälsingland. Kättingfabriken i Ljusne stängdes för gott 2003.",
+      "captions": [
+        "Med namnet Flottarens lägenhet sedan han blivit matthandlare har poeten i Mårten slagit ut i full blom, även när det gäller titeln. Genialt."
+      ],
+      "notes": null,
+      "book_pages": [
+        50
+      ],
+      "image_book_pages": [
+        50
+      ],
+      "pdf_pages": [
+        47
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "metaren-1976",
+      "seq": 21,
+      "title": "Metaren",
+      "alt_titles": [],
+      "artist": "Mårten Andersson",
+      "technique": "Litografi",
+      "year": 1976,
+      "dimensions_text": "38 x 45,5 cm",
+      "height_cm": 38.0,
+      "width_cm": 45.5,
+      "edition_size": 1400,
+      "edition_text": "1 400 exemplar.",
+      "edition_source": "own",
+      "portfolio": null,
+      "series": null,
+      "hand_colored": false,
+      "is_auxiliary_sheet": false,
+      "description": "Mårtens klassiska metare. Litografin utförde konstnären på beställning av Dagens Nyheters konstförening. De hade många medlemmar, därför den stora upplagan.\nOriginalet i olja var i skådespelaren och komikern Carl-Gustaf Lindstedts ägo innan det kom till Länsmuseet i Gävle. Målningen pryder också omslaget på Teddy Gummerus bok om Mårten Andersson. En andra version, mer avskalad och nedtonad, gjorde konstnären många år senare. Den är i privat ägo.",
+      "captions": [],
+      "notes": null,
+      "book_pages": [
+        50,
+        51
+      ],
+      "image_book_pages": [
+        51
+      ],
+      "pdf_pages": [
+        47,
+        48
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "tva-profiler-1976",
+      "seq": 22,
+      "title": "Två profiler",
+      "alt_titles": [],
+      "artist": "Mårten Andersson",
+      "technique": "Linoleumtryck",
+      "year": 1976,
+      "dimensions_text": "21,5 x 19,5 cm",
+      "height_cm": 21.5,
+      "width_cm": 19.5,
+      "edition_size": null,
+      "edition_text": "Okänt, saknar numrering.",
+      "edition_source": "own",
+      "portfolio": null,
+      "series": null,
+      "hand_colored": false,
+      "is_auxiliary_sheet": false,
+      "description": "Övriga linoleumtryck i konstnärens produktion. Liksom det första, Fest i stugan, är de onumrerade. Tryckta var för sig eller på samma blad.",
+      "captions": [],
+      "notes": null,
+      "book_pages": [
+        50,
+        51
+      ],
+      "image_book_pages": [
+        51
+      ],
+      "pdf_pages": [
+        47,
+        48
+      ],
+      "review_flags": [
+        "Boken beskriver Två profiler och Dukat bord i en gemensam post; uppdelad här i två blad."
+      ]
+    },
+    {
+      "id": "dukat-bord-1976",
+      "seq": 23,
+      "title": "Dukat bord",
+      "alt_titles": [],
+      "artist": "Mårten Andersson",
+      "technique": "Linoleumtryck",
+      "year": 1976,
+      "dimensions_text": "21,5 x 19,5 cm",
+      "height_cm": 21.5,
+      "width_cm": 19.5,
+      "edition_size": null,
+      "edition_text": "Okänt, saknar numrering.",
+      "edition_source": "own",
+      "portfolio": null,
+      "series": null,
+      "hand_colored": false,
+      "is_auxiliary_sheet": false,
+      "description": "Övriga linoleumtryck i konstnärens produktion. Liksom det första, Fest i stugan, är de onumrerade. Tryckta var för sig eller på samma blad.",
+      "captions": [],
+      "notes": null,
+      "book_pages": [
+        50,
+        51
+      ],
+      "image_book_pages": [
+        51
+      ],
+      "pdf_pages": [
+        47,
+        48
+      ],
+      "review_flags": [
+        "Boken beskriver Två profiler och Dukat bord i en gemensam post; uppdelad här i två blad."
+      ]
+    },
+    {
+      "id": "bondrosor-1977",
+      "seq": 24,
+      "title": "Bondrosor",
+      "alt_titles": [],
+      "artist": "Mårten Andersson",
+      "technique": "Litografi",
+      "year": 1977,
+      "dimensions_text": "61,5 x 50,5 cm",
+      "height_cm": 61.5,
+      "width_cm": 50.5,
+      "edition_size": 385,
+      "edition_text": "385 exemplar.",
+      "edition_source": "own",
+      "portfolio": null,
+      "series": null,
+      "hand_colored": false,
+      "is_auxiliary_sheet": false,
+      "description": "Känner du doften?\nFrågan brukar komma när man går mot förstukvisten till konstnärens hus i Freluga. Där på bron, på sin väl använda stol, sitter Mårten på somrarna med sitt förmiddagste och suger i sig doften av sina älskade bondrosor.\nDet är därifrån han plockat det här motivet, även om bakgrunden inte riktigt stämmer med verkligheten. Men ladan finns, fast på baksidan av huset. Konstnärlig frihet, kallas det.\nApropå väl använd stol: i ateljén en trappa upp i huset står ytterligare en, arbetsstolen. På den sitter Mårten när han målar och på den satt Stig Borglind (1892–1965), en av de kända Falugrafikerna.\nMårten slog till direkt när han hittade stolen i en antikaffär.",
+      "captions": [
+        "Mårten tycker väldigt mycket om blommor, främst bondrosor. De växer överallt i trädgården i Freluga och när rosorna blommar sitter han likt tjuren Ferdinand och drar i sig doften."
+      ],
+      "notes": null,
+      "book_pages": [
+        52
+      ],
+      "image_book_pages": [
+        52
+      ],
+      "pdf_pages": [
+        49
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "kuben-1977",
+      "seq": 25,
+      "title": "Kuben",
+      "alt_titles": [],
+      "artist": "Mårten Andersson",
+      "technique": "Screentryck",
+      "year": 1977,
+      "dimensions_text": "28 x 25 cm (fyra sidor), 25 x 25 cm (två sidor), 81 x 103 cm (hela bladet)",
+      "height_cm": null,
+      "width_cm": null,
+      "edition_size": 160,
+      "edition_text": "160 exemplar.",
+      "edition_source": "own",
+      "portfolio": null,
+      "series": null,
+      "hand_colored": false,
+      "is_auxiliary_sheet": false,
+      "description": "Konstnärens första screentryck ska ses som ett slags experiment för inlärning av en ny teknik. Hittills har Mårten arbetat med litografier och linoleumtryck, nu ger han sig i kast med en tredje grafisk metod, screentrycket.\nBladet i sig ska också ses som ett slags experiment, för här ska en slät yta formas till en kub.\nSex olika sidor blir en kub om man skär ur motivet, viker det och sedan fäster de sex sidorna. Och knyter man sedan fast en tråd kan den färdiga kuben hänga fritt från taket. Det är också konstnärens tanke, det är därför flikarna finns.\nDe flesta med en kub i sin ägo har dock valt att rama hela bladet, varianten med att skära ur bilden till ett kors och rama det så finns också.",
+      "captions": [
+        "Efter många litografier och några linoleumtryck ville Mårten lära sig en ny grafisk metod. Kuben blev hans första screentryck."
+      ],
+      "notes": null,
+      "book_pages": [
+        52,
+        53
+      ],
+      "image_book_pages": [
+        53
+      ],
+      "pdf_pages": [
+        49,
+        50
+      ],
+      "review_flags": [
+        "Flera mått: 28 x 25 cm (fyra sidor), 25 x 25 cm (två sidor), 81 x 103 cm (hela bladet); height/width lämnade tomma."
+      ]
+    },
+    {
+      "id": "hedbloms-lada-1977",
+      "seq": 26,
+      "title": "Hedbloms lada",
+      "alt_titles": [],
+      "artist": "Mårten Andersson",
+      "technique": "Screentryck",
+      "year": 1977,
+      "dimensions_text": "70 x 100 cm",
+      "height_cm": 70.0,
+      "width_cm": 100.0,
+      "edition_size": 375,
+      "edition_text": "375 exemplar.",
+      "edition_source": "own",
+      "portfolio": null,
+      "series": null,
+      "hand_colored": false,
+      "is_auxiliary_sheet": false,
+      "description": "Mårtens andra screentryck. Här har han plockat ännu en bukett från tomten i Freluga. Rosorna har ersatts av hundkäx, akleja och prästkragar, men ladan är densamma som på Bondrosor. Hedbloms var gårdsnamnet på den hälsingegård, med tillhörande lada, som Mårten köpte i början av 1970-talet.\nNärmaste granne är Farsans, som Mårten säger. Det var där han föddes och bodde under uppväxtåren.",
+      "captions": [
+        "Trappan till huset i Freluga.",
+        "Ladan därhemma utgör en fin bakgrund till blommorna på Mårtens grafiska blad. På screentrycket Hedbloms lada har dock bondrosorna fått ge vika för andra blomster."
+      ],
+      "notes": null,
+      "book_pages": [
+        54,
+        55
+      ],
+      "image_book_pages": [
+        54,
+        55
+      ],
+      "pdf_pages": [
+        51,
+        52
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "selkroken-1977",
+      "seq": 27,
+      "title": "Selkroken",
+      "alt_titles": [],
+      "artist": "Mårten Andersson",
+      "technique": "Screentryck",
+      "year": 1977,
+      "dimensions_text": "118 x 115 cm",
+      "height_cm": 118.0,
+      "width_cm": 115.0,
+      "edition_size": 360,
+      "edition_text": "360 exemplar.",
+      "edition_source": "own",
+      "portfolio": null,
+      "series": null,
+      "hand_colored": false,
+      "is_auxiliary_sheet": false,
+      "description": "Konstnärens storslagna examensarbete i ämnet screentryck. Enligt honom själv det stora mästerverket – alla kategorier. Det krävdes 53 olika tryckningar för att Mårten skulle bli nöjd. Litografin Sara (se sidan 68) godkände han efter 35 tryckningar, det ungefärliga snittet på konstnärens övriga grafiska blad ligger på 25.\nMan ska i sammanhanget veta att Mårten själv i högsta grad är delaktig i samtliga moment. Alla färgseparationer, till exempel, gör han helt på egen hand. Att som konstnär jobba på det viset vid framställande av grafik är inte alldeles självklart.\nSelkroken är en etnografisk bild, ett direkt avbildat föremål. Som bakgrund har Hedbloms lada hemma hos Mårten i Freluga ännu en gång fått stå till tjänst. På laduväggen hänger selkroken, eller selbågen, som ett slags monument över flera århundranden. Betslet är från barockens 1600-tal, det passar in precis i selbågen från 1700-talet, liksom i lädertömmarna, som är från 1900-talet.\nDärmed skulle det, enligt Mårten, vara bevisat att ingenting egentligen har förändrats. Seldonen på 1600-talet såg likadana ut som de gör i dag.\nAnsiktet på Selkroken har ingen verklighetsbakgrund, det är fritt ur fantasin, hävdar konstnären. Det kan man ju tro vad man vill om, för mycket mer likt ett självporträtt än så här blir det inte. Lite skägg på hakan och det är Mårten upp i dagen.\nSelkroken är utförd i två sektioner, varav bilden på den lummiga grönskan är en. Även det motivet är hämtat från tomten i Freluga. Det lilla huset är en gammal tvättstuga, som står där fortfarande.\nSelkroken finns också kvar. Den hänger i gammelstugan vid Grillska gården i Iggesund.",
+      "captions": [
+        "Ateljéstolen tillhörde tidigare Stig Borglind. Mårten köpte den i en antikaffär.",
+        "Mårten blir svettig när han tänker på hur mycket jobb han lade ner för att kunna färdigställa sitt tredje screentryck. Men bra blev det. Så bra att Mårten kallar Selkroken för sitt absoluta mästerverk."
+      ],
+      "notes": null,
+      "book_pages": [
+        56,
+        57
+      ],
+      "image_book_pages": [
+        56,
+        57
+      ],
+      "pdf_pages": [
+        53
+      ],
+      "review_flags": [
+        "Bok-sidan 56 (troligen helsidesbild av Selkroken) saknas i PDF:en; bara en remsa syns i kanten på s. 57."
+      ]
+    },
+    {
+      "id": "bonde-pa-ibiza-1977",
+      "seq": 28,
+      "title": "Bonde på Ibiza",
+      "alt_titles": [
+        "Siesta"
+      ],
+      "artist": "Mårten Andersson",
+      "technique": "Litografi",
+      "year": 1977,
+      "dimensions_text": "27 x 35 cm",
+      "height_cm": 27.0,
+      "width_cm": 35.0,
+      "edition_size": 360,
+      "edition_text": "360 exemplar.",
+      "edition_source": "own",
+      "portfolio": null,
+      "series": null,
+      "hand_colored": false,
+      "is_auxiliary_sheet": false,
+      "description": "Det spelar ingen roll vad man gör eller var man befinner sig när siestan infaller, den tar man oavsett. Sittande på en kärra bakom en åsna, till exempel. Bara att vippa fram hatten och ta sig en tupplur.\nSin första resa till den spanska ön gjorde konstnären redan på 1950-talet. Förlagan till Siesta, som är det vanligaste namnet, är i akvarell och daterat 1960. Många år senare tog Mårten fram bilden ur minnet och gjorde litografin. Där husen står finns numera ett kasino.",
+      "captions": [
+        "Med den värme som råder i Spanien på somrarna är det inte konstigt att människorna där behöver en siesta mitt på dagen. Som bonden på Ibiza."
+      ],
+      "notes": null,
+      "book_pages": [
+        58
+      ],
+      "image_book_pages": [
+        58
+      ],
+      "pdf_pages": [
+        54
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "blomsterflickan-1977",
+      "seq": 29,
+      "title": "Blomsterflickan",
+      "alt_titles": [],
+      "artist": "Mårten Andersson",
+      "technique": "Litografi",
+      "year": 1977,
+      "dimensions_text": "34,5 x 27 cm",
+      "height_cm": 34.5,
+      "width_cm": 27.0,
+      "edition_size": 360,
+      "edition_text": "360 exemplar.",
+      "edition_source": "own",
+      "portfolio": null,
+      "series": null,
+      "hand_colored": false,
+      "is_auxiliary_sheet": false,
+      "description": "Ett motiv ur fantasin, men med en stark prägel av Italien. Där ingår blomsterförsäljande flickor i stadsbilden och katter finns det också gott om. Att katten är lika stor som flickan behöver inte nödvändigtvis betyda att bilden ska tolkas som naivistisk, inte om man känner till konstnärens förkärlek till just katter.",
+      "captions": [
+        "En fin bild, fritt ur fantasin. Men blomsterflickan för tankarna till Italien."
+      ],
+      "notes": null,
+      "book_pages": [
+        58
+      ],
+      "image_book_pages": [
+        58
+      ],
+      "pdf_pages": [
+        54
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "torget-i-castellabate-1977",
+      "seq": 30,
+      "title": "Torget i Castellabate",
+      "alt_titles": [],
+      "artist": "Mårten Andersson",
+      "technique": "Litografi",
+      "year": 1977,
+      "dimensions_text": "54 x 65 cm",
+      "height_cm": 54.0,
+      "width_cm": 65.0,
+      "edition_size": 460,
+      "edition_text": "460 exemplar.",
+      "edition_source": "own",
+      "portfolio": null,
+      "series": null,
+      "hand_colored": false,
+      "is_auxiliary_sheet": false,
+      "description": "Castellabate heter en by som ligger på toppen av ett berg beläget 14 mil söder om Neapel. Här rör sig Mårten vant efter sina många resor till Italien och från torget i byn hämtade han motivet till den här litografin. Behållningen av försäljningen gick till den svenska prenatalforskningen (hälsan före födelsen).\nDet var tidningen Expressen som uppmärksammade forskningen genom att höra sig för med några utvalda konstnärer om de kunde tänka sig att framställa varsitt grafiskt blad som tidningen kunde sälja till sina läsare. All behållning skulle gå till forskning.\nKonstnärerna gjorde tummen upp, läsarna likaså, för när Torget i Castellabate den 4 december 1977 bjöds ut till försäljning i Expressen dröjde det inte förrän de 460 exemplaren var sålda. Priset var 595 kronor per blad.\nÖvriga konstnärer som bidrog var Bengt Lindström, Lennart Jirlow, Reinhold Ljunggren, Mona Huss Wallin och Stig Claesson.",
+      "captions": [
+        "När tidningen Expressen ville anlita några konstnärer i en kampanj för att stödja forskningen av hälsan före födelsen fick bland andra Mårten Andersson frågan. Resultatet blev Torget i Castellabate."
+      ],
+      "notes": null,
+      "book_pages": [
+        60
+      ],
+      "image_book_pages": [
+        60
+      ],
+      "pdf_pages": [
+        56
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "spelmannen-1977",
+      "seq": 31,
+      "title": "Spelmannen",
+      "alt_titles": [
+        "Lilla spelmannen"
+      ],
+      "artist": "Mårten Andersson",
+      "technique": "Litografi",
+      "year": 1977,
+      "dimensions_text": "35 x 27 cm",
+      "height_cm": 35.0,
+      "width_cm": 27.0,
+      "edition_size": 375,
+      "edition_text": "375 exemplar.",
+      "edition_source": "own",
+      "portfolio": null,
+      "series": null,
+      "hand_colored": false,
+      "is_auxiliary_sheet": false,
+      "description": "En spelman, liljekonvaljer, vatten och blånande berg – en av konstnärens många kärleksförklaringar till Hälsingland.\nGenidraget (bladet är ett av de mest efterfrågade) var nog ändå att låta fiolen bli röd.",
+      "captions": [
+        "Hälsingland när det är som vackrast. Det kan vara anledningen till att Lilla spelmannen på senare år har seglat upp som en av favoriterna hos köparna av Mårten-litografier på auktioner."
+      ],
+      "notes": null,
+      "book_pages": [
+        60,
+        61
+      ],
+      "image_book_pages": [
+        61
+      ],
+      "pdf_pages": [
+        56,
+        57
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "kaffedrickarna-1978",
+      "seq": 32,
+      "title": "Kaffedrickarna",
+      "alt_titles": [],
+      "artist": "Mårten Andersson",
+      "technique": "Litografi",
+      "year": 1978,
+      "dimensions_text": "42 x 34 cm",
+      "height_cm": 42.0,
+      "width_cm": 34.0,
+      "edition_size": 400,
+      "edition_text": "400 exemplar.",
+      "edition_source": "own",
+      "portfolio": null,
+      "series": null,
+      "hand_colored": false,
+      "is_auxiliary_sheet": false,
+      "description": "Aldrig smakar väl kaffetåren så bra som när man sitter med sin käresta i en berså i Hälsingland, eller på någon annan plats i Mårtens värld. Tanken från början var att Kaffedrickarna skulle ges ut tillsammans med en kommande bok om konstnären, men av olika anledningar blev det inget av med det projektet.",
+      "captions": [
+        "Litografin Kaffedrickarna skulle ges ut tillsammans med en bok, var det tänkt. Så blev det inte, men bladet stod sig utan bok.",
+        "(bok-s. 58, om fotot på s. 59) 1964 färdigställde Mårten praktmålningen Kaffedrickarna i ateljén i Sunnanå. Den han sneglar på är den bortskurna delen av Den blå planeten. Den fick bli en målning för sig själv. FOTO: HILDING MICKELSSON"
+      ],
+      "notes": null,
+      "book_pages": [
+        62
+      ],
+      "image_book_pages": [
+        62
+      ],
+      "pdf_pages": [
+        58
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "lejontamjarens-hus-1980",
+      "seq": 33,
+      "title": "Lejontämjarens hus",
+      "alt_titles": [],
+      "artist": "Mårten Andersson",
+      "technique": "Litografi",
+      "year": 1980,
+      "dimensions_text": "41 x 33 cm",
+      "height_cm": 41.0,
+      "width_cm": 33.0,
+      "edition_size": 360,
+      "edition_text": "360 exemplar.",
+      "edition_source": "own",
+      "portfolio": null,
+      "series": null,
+      "hand_colored": false,
+      "is_auxiliary_sheet": false,
+      "description": "Ingen kan, som Mårten, skapa världar som inte liknar något annat. Lejontämjaren, med de för konstnären så karaktäristiska ornamentala slingorna som växer ut från pannan, är ett bra exempel. Liksom det magnifika huset, klart att ett sådant ställe måste vaktas ordentligt. Och vad kan passa bättre till det än ett lejon?",
+      "captions": [
+        "Dags för ännu en bild från en av Mårten Anderssons egna världar. Och dags för ännu bild med hög status på auktionsmarknaden. Lejontämjarens hus, var namnet."
+      ],
+      "notes": null,
+      "book_pages": [
+        62,
+        63
+      ],
+      "image_book_pages": [
+        63
+      ],
+      "pdf_pages": [
+        58,
+        59
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "skogsplantering-1985",
+      "seq": 34,
+      "title": "Skogsplantering",
+      "alt_titles": [],
+      "artist": "Mårten Andersson",
+      "technique": "Litografi",
+      "year": 1985,
+      "dimensions_text": "59,5 x 69,5 cm",
+      "height_cm": 59.5,
+      "width_cm": 69.5,
+      "edition_size": 400,
+      "edition_text": "400 exemplar.",
+      "edition_source": "portfolio",
+      "portfolio": "Iggesundsmappen",
+      "series": null,
+      "hand_colored": false,
+      "is_auxiliary_sheet": false,
+      "description": null,
+      "captions": [
+        "Skogsplantering ägnar sig många åt, inte minst sommarjobbande ungdomar. Viktigt, förstås, för ett pappersbruk som Iggesund."
+      ],
+      "notes": null,
+      "book_pages": [
+        64,
+        65
+      ],
+      "image_book_pages": [
+        64
+      ],
+      "pdf_pages": [
+        60,
+        61
+      ],
+      "review_flags": [
+        "Teknik och år anges bara för portföljen, inte per blad."
+      ]
+    },
+    {
+      "id": "odjuret-1985",
+      "seq": 35,
+      "title": "Odjuret",
+      "alt_titles": [],
+      "artist": "Mårten Andersson",
+      "technique": "Litografi",
+      "year": 1985,
+      "dimensions_text": "56 x 67,5 cm",
+      "height_cm": 56.0,
+      "width_cm": 67.5,
+      "edition_size": 400,
+      "edition_text": "400 exemplar.",
+      "edition_source": "portfolio",
+      "portfolio": "Iggesundsmappen",
+      "series": null,
+      "hand_colored": false,
+      "is_auxiliary_sheet": false,
+      "description": null,
+      "captions": [
+        "Odjuret avviker rejält från övriga motiv i Iggesundsmappen. Koppling till orten och bruket får man genom fartyget, som förmodligen har pappersmassa i lasten."
+      ],
+      "notes": null,
+      "book_pages": [
+        64,
+        65
+      ],
+      "image_book_pages": [
+        64
+      ],
+      "pdf_pages": [
+        60,
+        61
+      ],
+      "review_flags": [
+        "Teknik och år anges bara för portföljen, inte per blad."
+      ]
+    },
+    {
+      "id": "grillska-garden-1985",
+      "seq": 36,
+      "title": "Grillska gården",
+      "alt_titles": [],
+      "artist": "Mårten Andersson",
+      "technique": "Litografi",
+      "year": 1985,
+      "dimensions_text": "56 x 67 cm",
+      "height_cm": 56.0,
+      "width_cm": 67.0,
+      "edition_size": 400,
+      "edition_text": "400 exemplar.",
+      "edition_source": "portfolio",
+      "portfolio": "Iggesundsmappen",
+      "series": null,
+      "hand_colored": false,
+      "is_auxiliary_sheet": false,
+      "description": null,
+      "captions": [
+        "Grillska gården vid bruket i Iggesund. I gammelgården hänger numera selkroken, som Mårten Andersson använde när han utförde screentrycket med samma namn."
+      ],
+      "notes": null,
+      "book_pages": [
+        65
+      ],
+      "image_book_pages": [
+        65
+      ],
+      "pdf_pages": [
+        61
+      ],
+      "review_flags": [
+        "Teknik och år anges bara för portföljen, inte per blad."
+      ]
+    },
+    {
+      "id": "njutangers-kyrka-1985",
+      "seq": 37,
+      "title": "Njutångers kyrka",
+      "alt_titles": [],
+      "artist": "Mårten Andersson",
+      "technique": "Litografi",
+      "year": 1985,
+      "dimensions_text": "55 x 67 cm",
+      "height_cm": 55.0,
+      "width_cm": 67.0,
+      "edition_size": 400,
+      "edition_text": "400 exemplar.",
+      "edition_source": "portfolio",
+      "portfolio": "Iggesundsmappen",
+      "series": null,
+      "hand_colored": false,
+      "is_auxiliary_sheet": false,
+      "description": null,
+      "captions": [
+        "Njutånger ligger strax söder om Iggesund. Med kyrkan mitt i byn och dess innertak vilande över hela bilden fick Mårten med sig ett motiv också därifrån."
+      ],
+      "notes": null,
+      "book_pages": [
+        64,
+        65
+      ],
+      "image_book_pages": [
+        65
+      ],
+      "pdf_pages": [
+        60,
+        61
+      ],
+      "review_flags": [
+        "Teknik och år anges bara för portföljen, inte per blad."
+      ]
+    },
+    {
+      "id": "var-vid-sorbobron-1985",
+      "seq": 38,
+      "title": "Vår vid Sörbobron",
+      "alt_titles": [
+        "Våren"
+      ],
+      "artist": "Mårten Andersson",
+      "technique": "Litografi",
+      "year": 1985,
+      "dimensions_text": "36 x 48 cm",
+      "height_cm": 36.0,
+      "width_cm": 48.0,
+      "edition_size": 385,
+      "edition_text": "385 exemplar.",
+      "edition_source": "own",
+      "portfolio": null,
+      "series": null,
+      "hand_colored": false,
+      "is_auxiliary_sheet": false,
+      "description": "En annorlunda Mårten, med motiv från vårfloden i älven Voxnan vid Sörbobron, några kilometer väster om Bollnäs.\nBladet kom till under en period när konstnären gjorde mer etnografiska bilder, framför allt i olja.\n\"En konstnär har många språk och så måste det få vara. Man måste få ha sin konstnärliga frihet, sin rätt att uttrycka det man känner och tänker\".\nOch vid just den här tiden hade Mårten lagt sina många symboler åt sidan, med orden:\n\"Man ska inte hålla på och berätta en massa historier hela tiden\".\nEfter något år återgick han till ursprunget.",
+      "captions": [
+        "Med Våren lämnar konstnären sina drömvärldar och ger oss en annorlunda bild. Här strömmar det i Voxnan vid Sörbobron, strax väster om Bollnäs."
+      ],
+      "notes": null,
+      "book_pages": [
+        66
+      ],
+      "image_book_pages": [
+        66
+      ],
+      "pdf_pages": [
+        62
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "marta-1986",
+      "seq": 39,
+      "title": "Marta",
+      "alt_titles": [
+        "På terrassen i Nerja"
+      ],
+      "artist": "Mårten Andersson",
+      "technique": "Litografi",
+      "year": 1986,
+      "dimensions_text": "54 x 65 cm",
+      "height_cm": 54.0,
+      "width_cm": 65.0,
+      "edition_size": 360,
+      "edition_text": "360 exemplar.",
+      "edition_source": "own",
+      "portfolio": null,
+      "series": null,
+      "hand_colored": false,
+      "is_auxiliary_sheet": false,
+      "description": "Säg den Bollnäsbo som inte känner till staden Nerja, fem mil öster om Malaga på den spanska solkusten?\nHit kom delar av familjen Linell från Bollnäs redan i slutet av 1970-talet och Mårten Andersson hängde på. Inte permanent, som syskonen Karin, Eva och Per Linell, men väl som en av många från Bollnäs som fascinerades av den genuina och pittoreska lilla spanska staden.\nI dag är Nerja betydligt större, men dess charm består och många är de hälsingar som fortfarande, år efter år, väljer Nerja som semestermål.\nLitografin med flickan som lite blygt kikar fram där på terrassen gjorde Mårten efter ett besök hemma hos Karin Linell. Hon bodde då några kilometer från Nerja, i ett hus uppe i bergen, nära den mer än 1 000 år gamla byn Frigiliana, en gång utsedd som Spaniens vackraste by. Inte så konstigt att Mårten då fick inspiration till den här sköna bilden.\nVem flickan är?\nHon heter Marta och är Karin Linells dotter. Marta bor kvar i Nerja och jobbar på den restaurang pappa Ayo driver på Playa de Burriana.\nKarin Linell var under några år politiskt engagerad och valdes då till borgmästare i Nerja. Hon blev därmed den första kvinnliga borgmästaren i Spaniens historia.",
+      "captions": [
+        "Marta heter den lilla flickan som tittar fram på terrassen. Mårten inspirerades till bilden vid ett besök hemma hos Martas mamma Karin Linell i Nerja, Spanien."
+      ],
+      "notes": null,
+      "book_pages": [
+        67
+      ],
+      "image_book_pages": [
+        67
+      ],
+      "pdf_pages": [
+        63
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "sara-1987",
+      "seq": 40,
+      "title": "Sara",
+      "alt_titles": [
+        "Sara i Santa Maria di Castellabate"
+      ],
+      "artist": "Mårten Andersson",
+      "technique": "Litografi",
+      "year": 1987,
+      "dimensions_text": "65 x 54 cm",
+      "height_cm": 65.0,
+      "width_cm": 54.0,
+      "edition_size": 375,
+      "edition_text": "375 exemplar.",
+      "edition_source": "own",
+      "portfolio": null,
+      "series": null,
+      "hand_colored": false,
+      "is_auxiliary_sheet": false,
+      "description": "Året efter Marta kom Sara, ännu en bild med en flicka omgiven av en prunkande trädgård. Men med den skillnaden att Mårten har bytt staden Nerja i Spanien mot byn Santa Maria di Castellabate i Italien. Den ligger nedanför ett berg 14 mil söder om Neapel. Samma berg, fast på dess topp, där Mårten tio år tidigare fann motivet till Torget i Castellabate (se sidan 60).\nFlickan som sitter i trappen och äter vindruvor är Mårtens dotter Sara.",
+      "captions": [
+        "Mårtens dotter Sara i en trädgård i Italien."
+      ],
+      "notes": null,
+      "book_pages": [
+        68
+      ],
+      "image_book_pages": [
+        68
+      ],
+      "pdf_pages": [
+        64
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "kyssen-1988",
+      "seq": 41,
+      "title": "Kyssen",
+      "alt_titles": [
+        "Kyssen 2"
+      ],
+      "artist": "Mårten Andersson",
+      "technique": "Litografi",
+      "year": 1988,
+      "dimensions_text": "55 x 45 cm",
+      "height_cm": 55.0,
+      "width_cm": 45.0,
+      "edition_size": 360,
+      "edition_text": "360 exemplar.",
+      "edition_source": "own",
+      "portfolio": null,
+      "series": null,
+      "hand_colored": false,
+      "is_auxiliary_sheet": false,
+      "description": "Bladets övre del är en variation på Midsommarnattsdröm ur portföljen Fem brev från byn. Färgerna är nedtonade, men motivet innanför cirkeln ovanför det kyssande paret detsamma.\nTillsammans med Slädfärden det sista bladet av konstnären som gavs ut i enbart Konstfrämjandets regi.",
+      "captions": [
+        "1988, 26 år efter debuten på Konstfrämjandet, kom ännu en kyss signerad Mårten A. Det var efter den som bilderna på de knäböjande paren började kallas för Kyssen 1 och 2. Men officiellt heter båda litografierna Kyssen, utan några siffror efteråt."
+      ],
+      "notes": null,
+      "book_pages": [
+        69
+      ],
+      "image_book_pages": [
+        69
+      ],
+      "pdf_pages": [
+        65
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "sladfarden-1988",
+      "seq": 42,
+      "title": "Slädfärden",
+      "alt_titles": [],
+      "artist": "Mårten Andersson",
+      "technique": "Litografi",
+      "year": 1988,
+      "dimensions_text": "59 x 56 cm",
+      "height_cm": 59.0,
+      "width_cm": 56.0,
+      "edition_size": 360,
+      "edition_text": "360 exemplar.",
+      "edition_source": "own",
+      "portfolio": null,
+      "series": null,
+      "hand_colored": false,
+      "is_auxiliary_sheet": false,
+      "description": "Den första, Kyssen 1, och en av de två sista, Slädfärden, tillhör de mest eftertraktade litografierna av Mårten Andersson i hans samarbete med Konstfrämjandet. Den fina starten följdes således upp med en lika fin avslutning.\nKonstfrämjandet skulle dock inte helt släppa taget om Mårten. Tillsammans med Konstmuseet i Lund arrangerade man 1989 utställningen Hjärtats poesi, med tre nya litografier signerade Mårten A.\nSlädfärden finns även i olja, i flera olika format, förutom den väggmålning konstnären utförde i samband med sin totalutsmyckning av matsalen i Björktjära skola i Bollnäs 1982.\nEn slädfärd i olja skänkte Mårten till Bollnäs GIF under 1980-talets senare hälft, för att hjälpa till med att räta upp Giffarnas redan då knackiga ekonomi. Ett konstlotteri anordnades och behållningen på 50 000 kronor gick till föreningens bandyverksamhet.\nVem som blev den lyckliga ägaren till en slädfärd i olja? Ingen, för den person som köpt vinstlotten gav sig aldrig tillkänna.\nInblandade parter bestämde då att sälja målningen på auktion – och låta Bollnäs GIF få behållningen. En gång till.\nUppdraget gick till Peter Ericsson på Brolins auktionskammare i Bollnäs. Intresset var stort, budgivning livlig och klubban föll först på 50 000 kronor. Slädfärden hade äntligen fått en ägare. Och Bollnäs GIF dubbelt så mycket pengar.",
+      "captions": [
+        "Den oemotståndliga Slädfärden är det grafiska blad av Mårten som Konstfrämjandet snabbast sålde slut av. Släden har Mårten kvar, om än inte i samma fina skick som på litografin."
+      ],
+      "notes": null,
+      "book_pages": [
+        70,
+        71
+      ],
+      "image_book_pages": [
+        71
+      ],
+      "pdf_pages": [
+        66,
+        67
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "ballongfararen-1989",
+      "seq": 43,
+      "title": "Ballongfararen",
+      "alt_titles": [],
+      "artist": "Mårten Andersson",
+      "technique": "Litografi",
+      "year": 1989,
+      "dimensions_text": "40 x 56,5 cm",
+      "height_cm": 40.0,
+      "width_cm": 56.5,
+      "edition_size": 360,
+      "edition_text": "360 exemplar.",
+      "edition_source": "own",
+      "portfolio": null,
+      "series": null,
+      "hand_colored": false,
+      "is_auxiliary_sheet": false,
+      "description": "Ännu en detalj ur en större målning, den som pryder en hel vägg i matsalen på Norrtullskolan i Söderhamn, ett av de absoluta huvudverken när det gäller konstnärens offentliga utsmyckningar.\nVäggen utförde Mårten 1972-1974 i fem olika fält och i dessa berättar han Söderhamns historia, från den stora branden 1876 och framåt.\nBallongfararen berättar om emigrationen till Amerika. Mannen i luftballongen är på väg över Atlanten, oceanen som måste besegras för att han ska kunna nå fram till det nya landet.",
+      "captions": [
+        "Till höger: Emigrationen till Amerika skildrar konstnären med en ballongfarare som korsar Atlanten."
+      ],
+      "notes": null,
+      "book_pages": [
+        70,
+        71
+      ],
+      "image_book_pages": [
+        71
+      ],
+      "pdf_pages": [
+        66,
+        67
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "fard-mot-manen-1989",
+      "seq": 44,
+      "title": "Färd mot månen",
+      "alt_titles": [],
+      "artist": "Mårten Andersson",
+      "technique": "Litografi",
+      "year": 1989,
+      "dimensions_text": "41,5 x 54 cm",
+      "height_cm": 41.5,
+      "width_cm": 54.0,
+      "edition_size": 360,
+      "edition_text": "360 exemplar.",
+      "edition_source": "own",
+      "portfolio": null,
+      "series": null,
+      "hand_colored": false,
+      "is_auxiliary_sheet": false,
+      "description": "Paret på cykel på sin färd mot månen utförde Mårten 1984 i olja, som en del av utsmyckningen av Skeer folkpark i Orsa.\nLitografin är en detalj ur den målningen.",
+      "captions": [
+        "I Mårtens värld kan man färdas på cykel ända till månen. Och gör man det till musik går det dessutom lätt."
+      ],
+      "notes": null,
+      "book_pages": [
+        70,
+        71
+      ],
+      "image_book_pages": [
+        71
+      ],
+      "pdf_pages": [
+        66,
+        67
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "hambodansarna-1989",
+      "seq": 45,
+      "title": "Hambodansarna",
+      "alt_titles": [],
+      "artist": "Mårten Andersson",
+      "technique": "Litografi",
+      "year": 1989,
+      "dimensions_text": "54 x 43 cm",
+      "height_cm": 54.0,
+      "width_cm": 43.0,
+      "edition_size": 360,
+      "edition_text": "360 exemplar.",
+      "edition_source": "own",
+      "portfolio": null,
+      "series": null,
+      "hand_colored": false,
+      "is_auxiliary_sheet": false,
+      "description": "Vi stannar kvar i Orsa och Skeer folkpark, där även Hambodansarna har sitt ursprung, som en detalj ur den stora utsmyckningen. Konstnärens kanske mest somriga bild. Hälsingland när det är som bäst, även om Orsa ligger i Dalarna.",
+      "captions": [
+        "Hambo dansas mest och bäst i Hälsingland, även om just de här hambodansarna har sitt ursprung i Skeer folkpark i Orsa, på andra sidan gränsen till Dalarna."
+      ],
+      "notes": null,
+      "book_pages": [
+        70
+      ],
+      "image_book_pages": [
+        70
+      ],
+      "pdf_pages": [
+        66
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "halsingespelmannen-1989",
+      "seq": 46,
+      "title": "Hälsingespelmannen",
+      "alt_titles": [
+        "Stora spelmannen"
+      ],
+      "artist": "Mårten Andersson",
+      "technique": "Litografi",
+      "year": 1989,
+      "dimensions_text": "54,5 x 43 cm",
+      "height_cm": 54.5,
+      "width_cm": 43.0,
+      "edition_size": 300,
+      "edition_text": "300 exemplar.",
+      "edition_source": "own",
+      "portfolio": null,
+      "series": null,
+      "hand_colored": false,
+      "is_auxiliary_sheet": false,
+      "description": "Det första av Mårtens blad som trycktes i Freluga, i byns gamla skola där sonen Jerker bor. Hit lät Mårten frakta en i Stockholm inhandlad tryckpress och så körde far och son i gång, med Jerker som tryckare.\nHälsingespelmannen skänkte Mårten till Hälsinge Akademi, en sammanslutning av ledande kulturarbetare bildad 1988. Mårten var en av de ursprungliga medlemmarna, tillsammans med bland andra Jonas Sima, Anderz Harning och Sven O Bergkvist, kända profiler i den hälsingska kultureliten.\nAkademin ger ut böcker och delar ut kulturstipendier. Mårten Anderssons donation av Hälsingespelmannen lade grunden till de årliga stipendieutdelningarna.",
+      "captions": [
+        "Hälsingespelmannen utförde Mårten i olja 1968. Litografin kom drygt 20 år senare och upplagan skänkte Mårten till kulturarbetarna i Hälsinge Akademi."
+      ],
+      "notes": null,
+      "book_pages": [
+        72
+      ],
+      "image_book_pages": [
+        72
+      ],
+      "pdf_pages": [
+        68
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "mannen-med-det-brinnande-hjartat-1990",
+      "seq": 47,
+      "title": "Mannen med det brinnande hjärtat",
+      "alt_titles": [],
+      "artist": "Mårten Andersson",
+      "technique": "Litografi",
+      "year": 1990,
+      "dimensions_text": "61 x 43 cm",
+      "height_cm": 61.0,
+      "width_cm": 43.0,
+      "edition_size": 360,
+      "edition_text": "360 exemplar.",
+      "edition_source": "portfolio",
+      "portfolio": "Bruddansen",
+      "series": null,
+      "hand_colored": false,
+      "is_auxiliary_sheet": false,
+      "description": null,
+      "captions": [
+        "Mannen som välsignade brödet kallas snickerimålaren Erik Erssons originalmålning från 1700-talet. Den är kraftigt restaurerad.",
+        "Mårten Anderssons version av Erik Erssons målning heter Mannen med det brinnande hjärtat. Här möts han och hon."
+      ],
+      "notes": null,
+      "book_pages": [
+        72,
+        73
+      ],
+      "image_book_pages": [
+        73
+      ],
+      "pdf_pages": [
+        68,
+        69
+      ],
+      "review_flags": [
+        "Teknik och år anges bara för portföljen, inte per blad."
+      ]
+    },
+    {
+      "id": "sommardans-1990",
+      "seq": 48,
+      "title": "Sommardans",
+      "alt_titles": [],
+      "artist": "Mårten Andersson",
+      "technique": "Litografi",
+      "year": 1990,
+      "dimensions_text": "61 x 43 cm",
+      "height_cm": 61.0,
+      "width_cm": 43.0,
+      "edition_size": 360,
+      "edition_text": "360 exemplar.",
+      "edition_source": "portfolio",
+      "portfolio": "Bruddansen",
+      "series": null,
+      "hand_colored": false,
+      "is_auxiliary_sheet": false,
+      "description": null,
+      "captions": [
+        "I bladet Sommardans finner paret varandra."
+      ],
+      "notes": null,
+      "book_pages": [
+        72,
+        73
+      ],
+      "image_book_pages": [
+        73
+      ],
+      "pdf_pages": [
+        68,
+        69
+      ],
+      "review_flags": [
+        "Teknik och år anges bara för portföljen, inte per blad."
+      ]
+    },
+    {
+      "id": "brudparet-1990",
+      "seq": 49,
+      "title": "Brudparet",
+      "alt_titles": [],
+      "artist": "Mårten Andersson",
+      "technique": "Litografi",
+      "year": 1990,
+      "dimensions_text": "61 x 43 cm",
+      "height_cm": 61.0,
+      "width_cm": 43.0,
+      "edition_size": 360,
+      "edition_text": "360 exemplar.",
+      "edition_source": "portfolio",
+      "portfolio": "Bruddansen",
+      "series": null,
+      "hand_colored": false,
+      "is_auxiliary_sheet": false,
+      "description": null,
+      "captions": [
+        "Sagan slutar lyckligt och paret gifter sig. På alla blad i serien bär mannen och kvinnan med sig sina hjärtan."
+      ],
+      "notes": null,
+      "book_pages": [
+        72,
+        73
+      ],
+      "image_book_pages": [
+        73
+      ],
+      "pdf_pages": [
+        68,
+        69
+      ],
+      "review_flags": [
+        "Teknik och år anges bara för portföljen, inte per blad."
+      ]
+    },
+    {
+      "id": "monteringsanvisning-bruddansen-1990",
+      "seq": 50,
+      "title": "Monteringsanvisning (Bruddansen)",
+      "alt_titles": [],
+      "artist": "Mårten Andersson",
+      "technique": "Litografi",
+      "year": 1990,
+      "dimensions_text": null,
+      "height_cm": null,
+      "width_cm": null,
+      "edition_size": 360,
+      "edition_text": "360 exemplar.",
+      "edition_source": "portfolio",
+      "portfolio": "Bruddansen",
+      "series": null,
+      "hand_colored": false,
+      "is_auxiliary_sheet": true,
+      "description": "Konstnärens tanke var att de tre bilderna skulle sammanfogas till en, stor bild och ramas så. Därför finns en monteringsanvisning med i portföljen. Även den är en litografi.",
+      "captions": [
+        "Monteringsanvisningen är också en litografi."
+      ],
+      "notes": null,
+      "book_pages": [
+        72
+      ],
+      "image_book_pages": [
+        72
+      ],
+      "pdf_pages": [
+        68
+      ],
+      "review_flags": [
+        "Ingen egen katalogpost i boken; nämns i portföljtexten. Ta bort om bara konstnärliga blad ska räknas.",
+        "Teknik och år anges bara för portföljen, inte per blad."
+      ]
+    },
+    {
+      "id": "mannen-fran-bergen-1991",
+      "seq": 51,
+      "title": "Mannen från bergen",
+      "alt_titles": [],
+      "artist": "Mårten Andersson",
+      "technique": "Litografi",
+      "year": 1991,
+      "dimensions_text": "61,5 x 44 cm",
+      "height_cm": 61.5,
+      "width_cm": 44.0,
+      "edition_size": 300,
+      "edition_text": "300 exemplar.",
+      "edition_source": "portfolio",
+      "portfolio": "Serenad",
+      "series": null,
+      "hand_colored": false,
+      "is_auxiliary_sheet": false,
+      "description": null,
+      "captions": [
+        "Mannen med gitarren kommer ridande från de andalusiska bergen för att träffa den kvinna han älskar."
+      ],
+      "notes": null,
+      "book_pages": [
+        74
+      ],
+      "image_book_pages": [
+        74
+      ],
+      "pdf_pages": [
+        70
+      ],
+      "review_flags": [
+        "Teknik och år anges bara för portföljen, inte per blad."
+      ]
+    },
+    {
+      "id": "frieriet-1991",
+      "seq": 52,
+      "title": "Frieriet",
+      "alt_titles": [],
+      "artist": "Mårten Andersson",
+      "technique": "Litografi",
+      "year": 1991,
+      "dimensions_text": "61,5 x 44 cm",
+      "height_cm": 61.5,
+      "width_cm": 44.0,
+      "edition_size": 300,
+      "edition_text": "300 exemplar.",
+      "edition_source": "portfolio",
+      "portfolio": "Serenad",
+      "series": null,
+      "hand_colored": false,
+      "is_auxiliary_sheet": false,
+      "description": null,
+      "captions": [
+        "Ett gammeldags, romantiskt, frieri. (Handkolorerat exemplar.)"
+      ],
+      "notes": "Avbildat exemplar är handkolorerat. Har enligt portföljtexten med åren tappat i färgerna.",
+      "book_pages": [
+        74
+      ],
+      "image_book_pages": [
+        74
+      ],
+      "pdf_pages": [
+        70
+      ],
+      "review_flags": [
+        "Teknik och år anges bara för portföljen, inte per blad."
+      ]
+    },
+    {
+      "id": "i-manskenet-1991",
+      "seq": 53,
+      "title": "I månskenet",
+      "alt_titles": [],
+      "artist": "Mårten Andersson",
+      "technique": "Litografi",
+      "year": 1991,
+      "dimensions_text": "61,5 x 44 cm",
+      "height_cm": 61.5,
+      "width_cm": 44.0,
+      "edition_size": 300,
+      "edition_text": "300 exemplar.",
+      "edition_source": "portfolio",
+      "portfolio": "Serenad",
+      "series": null,
+      "hand_colored": false,
+      "is_auxiliary_sheet": false,
+      "description": null,
+      "captions": [
+        "Romantiken fortsätter med en omfamning i fullmånens sken."
+      ],
+      "notes": null,
+      "book_pages": [
+        74,
+        75
+      ],
+      "image_book_pages": [
+        75
+      ],
+      "pdf_pages": [
+        70,
+        71
+      ],
+      "review_flags": [
+        "Kallas 'Månskenet' i kapitlet Tekniken bakom (bok-s. 91).",
+        "Teknik och år anges bara för portföljen, inte per blad."
+      ]
+    },
+    {
+      "id": "tillsammans-mot-bergen-1991",
+      "seq": 54,
+      "title": "Tillsammans mot bergen",
+      "alt_titles": [],
+      "artist": "Mårten Andersson",
+      "technique": "Litografi",
+      "year": 1991,
+      "dimensions_text": "61,5 x 44 cm",
+      "height_cm": 61.5,
+      "width_cm": 44.0,
+      "edition_size": 300,
+      "edition_text": "300 exemplar.",
+      "edition_source": "portfolio",
+      "portfolio": "Serenad",
+      "series": null,
+      "hand_colored": false,
+      "is_auxiliary_sheet": false,
+      "description": null,
+      "captions": [
+        "Tillsammans rider det älskande paret tillbaka mot bergen. (Handkolorerat exemplar.)"
+      ],
+      "notes": "Avbildat exemplar är handkolorerat. Har enligt portföljtexten med åren tappat i färgerna.",
+      "book_pages": [
+        74
+      ],
+      "image_book_pages": [
+        74
+      ],
+      "pdf_pages": [
+        70
+      ],
+      "review_flags": [
+        "Teknik och år anges bara för portföljen, inte per blad."
+      ]
+    },
+    {
+      "id": "mannen-med-det-brinnande-hjartat-1991",
+      "seq": 55,
+      "title": "Mannen med det brinnande hjärtat",
+      "alt_titles": [],
+      "artist": "Mårten Andersson",
+      "technique": "Litografi",
+      "year": 1991,
+      "dimensions_text": "58,5 x 41,5 cm",
+      "height_cm": 58.5,
+      "width_cm": 41.5,
+      "edition_size": 200,
+      "edition_text": "200 exemplar.",
+      "edition_source": "own",
+      "portfolio": null,
+      "series": null,
+      "hand_colored": false,
+      "is_auxiliary_sheet": false,
+      "description": "Tre år efter Slädfärden gick Mårten in och stöttade ännu en idrottsförening på hemmaplan. Nu var det Bollnäs ishockeysällskap som fick chansen att förbättra ekonomin. Inget lotteri dock den här gången, i stället tog klubbens medlemmar sig an uppgiften att sälja bladen.\n1 500 kronor styck var priset och behållningen gick till BIS. Eftersom medlemmarna visade sig vara duktiga på att sälja – faktum är att hela upplagan hade gått åt innan den ens var klar – blev det en bra slant till föreningen.\nDet andra bladet i konstnärens hela grafiska produktion där han låter en del av motivet gå ut i marginalen. Det första är Gumma med ko (se sidan 44) ur Fem brev från byn.\nÖvre delen av bilden känns igen från den första litografin i portföljen Bruddansen (se sidan 73). Namnet är dessutom detsamma. Den undre delen är snarlik På fäboden (se sidan 32).",
+      "captions": [
+        "Året efter Bruddansen kom Mårten med en variant av Mannen med det brinnande hjärtat. Upplagan skänkte han till Bollnäs ishockeysällskap."
+      ],
+      "notes": null,
+      "book_pages": [
+        76
+      ],
+      "image_book_pages": [
+        76
+      ],
+      "pdf_pages": [
+        72
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "jagaren-1996",
+      "seq": 56,
+      "title": "Jägaren",
+      "alt_titles": [],
+      "artist": "Mårten Andersson",
+      "technique": "Litografi",
+      "year": 1996,
+      "dimensions_text": "26 x 21 cm",
+      "height_cm": 26.0,
+      "width_cm": 21.0,
+      "edition_size": 280,
+      "edition_text": "280 exemplar.",
+      "edition_source": "portfolio",
+      "portfolio": "Bilder från hembygden",
+      "series": null,
+      "hand_colored": true,
+      "is_auxiliary_sheet": false,
+      "description": "Ännu en variant på jägaren och hans torn, eller jaktslott. Ett av konstnärens mest klassiska och uppskattade motiv.",
+      "captions": [
+        "Jägaren och hans slott är ett återkommande motiv i Mårtens produktion."
+      ],
+      "notes": null,
+      "book_pages": [
+        77
+      ],
+      "image_book_pages": [
+        77
+      ],
+      "pdf_pages": [
+        73
+      ],
+      "review_flags": [
+        "Teknik och år anges bara för portföljen, inte per blad."
+      ]
+    },
+    {
+      "id": "en-dag-vid-flugen-1996",
+      "seq": 57,
+      "title": "En dag vid Flugen",
+      "alt_titles": [],
+      "artist": "Mårten Andersson",
+      "technique": "Litografi",
+      "year": 1996,
+      "dimensions_text": "26 x 21 cm",
+      "height_cm": 26.0,
+      "width_cm": 21.0,
+      "edition_size": 280,
+      "edition_text": "280 exemplar.",
+      "edition_source": "portfolio",
+      "portfolio": "Bilder från hembygden",
+      "series": null,
+      "hand_colored": true,
+      "is_auxiliary_sheet": false,
+      "description": "Under en vårvinter för många år sedan, i en tid då arbetshästen och sparkstöttingen var oumbärliga, vistades Mårten ofta i Flugbo, en av de små byarna i Utomherten i Bollnäs kommun. Där, i ett hus vid sjön Flugen, bodde Damm-Per. Mårten och Damm-Per lärde känna varandra och bilden på Damm-Per bakom sin häst ska ses som en hyllning från Mårten till sin nyfunne vän.\nOriginalet i olja är daterat 1964. Litografin kom 32 år senare.",
+      "captions": [
+        "Hos Damm-Per i Flugbo trivdes Mårten. Där blev det många dagar vid sjön Flugen."
+      ],
+      "notes": null,
+      "book_pages": [
+        77
+      ],
+      "image_book_pages": [
+        77
+      ],
+      "pdf_pages": [
+        73
+      ],
+      "review_flags": [
+        "Teknik och år anges bara för portföljen, inte per blad."
+      ]
+    },
+    {
+      "id": "vasbo-fabodar-1996",
+      "seq": 58,
+      "title": "Våsbo fäbodar",
+      "alt_titles": [],
+      "artist": "Mårten Andersson",
+      "technique": "Litografi",
+      "year": 1996,
+      "dimensions_text": "26 x 22,5 cm",
+      "height_cm": 26.0,
+      "width_cm": 22.5,
+      "edition_size": 280,
+      "edition_text": "280 exemplar.",
+      "edition_source": "portfolio",
+      "portfolio": "Bilder från hembygden",
+      "series": null,
+      "hand_colored": true,
+      "is_auxiliary_sheet": false,
+      "description": "Till Våsbo fäbodar, en dryg mil norr om Edsbyn, har Mårten många gånger återvänt för att måla. Fäbodlivet, det både strävsamma och goda, har alltid fascinerat.",
+      "captions": [
+        "Ännu en bild från livet på en fäbod. I det här fallet Våsbo fäbodar norr om Edsbyn."
+      ],
+      "notes": null,
+      "book_pages": [
+        77
+      ],
+      "image_book_pages": [
+        77
+      ],
+      "pdf_pages": [
+        73
+      ],
+      "review_flags": [
+        "Teknik och år anges bara för portföljen, inte per blad."
+      ]
+    },
+    {
+      "id": "spelmannen-1996",
+      "seq": 59,
+      "title": "Spelmannen",
+      "alt_titles": [],
+      "artist": "Mårten Andersson",
+      "technique": "Litografi",
+      "year": 1996,
+      "dimensions_text": "26 x 21 cm",
+      "height_cm": 26.0,
+      "width_cm": 21.0,
+      "edition_size": 280,
+      "edition_text": "280 exemplar.",
+      "edition_source": "portfolio",
+      "portfolio": "Bilder från hembygden",
+      "series": null,
+      "hand_colored": true,
+      "is_auxiliary_sheet": false,
+      "description": "Är man riksspelman och innehavare av Zorns guldmärke på fiol är man förstås värd ett porträtt signerat Mårten A. Härmed bekräftas att spelmannen på litografin verkligen är Thore Härdelin från Delsbo.",
+      "captions": [
+        "Thore Härdelin är en spelman som Mårten gillar."
+      ],
+      "notes": null,
+      "book_pages": [
+        78
+      ],
+      "image_book_pages": [
+        78
+      ],
+      "pdf_pages": [
+        74
+      ],
+      "review_flags": [
+        "Teknik och år anges bara för portföljen, inte per blad."
+      ]
+    },
+    {
+      "id": "dans-pa-ybo-gard-1996",
+      "seq": 60,
+      "title": "Dans på Ybo gård",
+      "alt_titles": [],
+      "artist": "Mårten Andersson",
+      "technique": "Litografi",
+      "year": 1996,
+      "dimensions_text": "26 x 21 cm",
+      "height_cm": 26.0,
+      "width_cm": 21.0,
+      "edition_size": 280,
+      "edition_text": "280 exemplar.",
+      "edition_source": "portfolio",
+      "portfolio": "Bilder från hembygden",
+      "series": null,
+      "hand_colored": true,
+      "is_auxiliary_sheet": false,
+      "description": "Originalet i olja är ett av konstnärens mest betydande verk. Skisserna började han med redan 1955, efter en danskväll på Ybo gård, belägen i Sörbo, grannby till Freluga i Bollnäs kommun. Fyra år senare var målningen fullbordad.\nMårten minns den där kvällen på Ybo Gård som om det var i går. Till en början var han där i huvudsak som betraktare, men snart rycktes han med i det han beskriver som en magisk och förtrollad afton.\nHemma igen tog Mårten fram skissblocket och fångade känslor och stämningar. Det färdiga resultatet blev till största delen en bild av fest och med färgrika dekorationer, men konstnären såg även människor fyllda av vemod och längtan.",
+      "captions": [
+        "1955 var Mårten på dans på Ybo gård. Litografin lät vänta på sig till 1996."
+      ],
+      "notes": null,
+      "book_pages": [
+        78,
+        79
+      ],
+      "image_book_pages": [
+        79
+      ],
+      "pdf_pages": [
+        74,
+        75
+      ],
+      "review_flags": [
+        "Teknik och år anges bara för portföljen, inte per blad."
+      ]
+    },
+    {
+      "id": "kaffedrickarna-1996",
+      "seq": 61,
+      "title": "Kaffedrickarna",
+      "alt_titles": [],
+      "artist": "Mårten Andersson",
+      "technique": "Litografi",
+      "year": 1996,
+      "dimensions_text": "26 x 22,5 cm",
+      "height_cm": 26.0,
+      "width_cm": 22.5,
+      "edition_size": 280,
+      "edition_text": "280 exemplar.",
+      "edition_source": "portfolio",
+      "portfolio": "Bilder från hembygden",
+      "series": null,
+      "hand_colored": true,
+      "is_auxiliary_sheet": false,
+      "description": "En önskedröm, en bild av fullständig lycka. En av totalt tre varianter av kaffedrickande par konstnären gjort som grafiska blad.\nOriginalet i olja är daterat 1964.",
+      "captions": [
+        "I finkläder på en smyckad veranda njuter kaffedrickarna av livet."
+      ],
+      "notes": null,
+      "book_pages": [
+        78
+      ],
+      "image_book_pages": [
+        78
+      ],
+      "pdf_pages": [
+        74
+      ],
+      "review_flags": [
+        "Teknik och år anges bara för portföljen, inte per blad."
+      ]
+    },
+    {
+      "id": "delsbobruden-1997",
+      "seq": 62,
+      "title": "Delsbobruden",
+      "alt_titles": [],
+      "artist": "Mårten Andersson",
+      "technique": "Litografi",
+      "year": 1997,
+      "dimensions_text": "25,5 x 22 cm",
+      "height_cm": 25.5,
+      "width_cm": 22.0,
+      "edition_size": 100,
+      "edition_text": "100 exemplar.",
+      "edition_source": "own",
+      "portfolio": null,
+      "series": null,
+      "hand_colored": false,
+      "is_auxiliary_sheet": false,
+      "description": "Ännu en målning som konstnären tagit upp och gjort grafik av. Från början var det meningen att bladet skulle ingå i bibliofilupplagan till en ny bok, men precis som för nästan 20 år tidigare (Kaffedrickarna från 1978) blev det ingen bok nu heller.\nUpplagan gick i stället vidare till Cityföretagen i Bollnäs, som sålde bladet till sina medlemmar. Behållningen gick till finansieringen av konstnärens stora målning på Brotorget i Bollnäs.\nDe blåaste bergen, som den offentliga utsmyckningen heter, ligger sedan flera år nedpackad och nästan bortglömd i något förråd tillhörande Bollnäs kommun.",
+      "captions": [
+        "Ännu en kärleksfull bild. Originalet av Delsbobruden målade Mårten i Rom på 1960-talet. Just det här bladet bär dedikation."
+      ],
+      "notes": null,
+      "book_pages": [
+        80
+      ],
+      "image_book_pages": [
+        80
+      ],
+      "pdf_pages": [
+        76
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "damm-pers-1997",
+      "seq": 63,
+      "title": "Damm-Pers",
+      "alt_titles": [],
+      "artist": "Mårten Andersson",
+      "technique": "Litografi",
+      "year": 1997,
+      "dimensions_text": "25,5 x 22 cm",
+      "height_cm": 25.5,
+      "width_cm": 22.0,
+      "edition_size": 100,
+      "edition_text": "100 exemplar.",
+      "edition_source": "own",
+      "portfolio": null,
+      "series": null,
+      "hand_colored": false,
+      "is_auxiliary_sheet": false,
+      "description": "Skulle tillsammans med Delsbobruden ingå i bibliofilupplagan till boken som inte blev av. Även Damm-Per såldes vidare av Cityföreningen till förmån för finansieringen av målningen på Brotorget.\nDamm-Pers är en variant av En dag vid Flugen (se sidan 77) från portföljen Bilder från Hembygden.",
+      "captions": [
+        "I Flugbo i Bollnäs kommun levde Damm-Per och hans hustru Karin sina liv."
+      ],
+      "notes": null,
+      "book_pages": [
+        80
+      ],
+      "image_book_pages": [
+        80
+      ],
+      "pdf_pages": [
+        76
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "vid-havet-2004",
+      "seq": 64,
+      "title": "Vid havet",
+      "alt_titles": [],
+      "artist": "Mårten Andersson",
+      "technique": "Litografi",
+      "year": 2004,
+      "dimensions_text": "29,5 x 41 cm",
+      "height_cm": 29.5,
+      "width_cm": 41.0,
+      "edition_size": 100,
+      "edition_text": "100 exemplar.",
+      "edition_source": "portfolio",
+      "portfolio": "De älskande i Moneglia",
+      "series": null,
+      "hand_colored": false,
+      "is_auxiliary_sheet": false,
+      "description": null,
+      "captions": [
+        "Vid havet i Moneglia på den italienska rivieran strosar människor från världens alla hörn."
+      ],
+      "notes": null,
+      "book_pages": [
+        82,
+        83
+      ],
+      "image_book_pages": [
+        83
+      ],
+      "pdf_pages": [
+        78,
+        79
+      ],
+      "review_flags": [
+        "Teknik och år anges bara för portföljen, inte per blad."
+      ]
+    },
+    {
+      "id": "paskprocessionen-2004",
+      "seq": 65,
+      "title": "Påskprocessionen",
+      "alt_titles": [],
+      "artist": "Mårten Andersson",
+      "technique": "Litografi",
+      "year": 2004,
+      "dimensions_text": "41 x 29,5 cm",
+      "height_cm": 41.0,
+      "width_cm": 29.5,
+      "edition_size": 100,
+      "edition_text": "100 exemplar.",
+      "edition_source": "portfolio",
+      "portfolio": "De älskande i Moneglia",
+      "series": null,
+      "hand_colored": false,
+      "is_auxiliary_sheet": false,
+      "description": null,
+      "captions": [
+        "Så här kan det se ut vid en påskprocession i Italien."
+      ],
+      "notes": null,
+      "book_pages": [
+        82,
+        83
+      ],
+      "image_book_pages": [
+        83
+      ],
+      "pdf_pages": [
+        78,
+        79
+      ],
+      "review_flags": [
+        "Teknik och år anges bara för portföljen, inte per blad."
+      ]
+    },
+    {
+      "id": "de-alskande-2004",
+      "seq": 66,
+      "title": "De älskande",
+      "alt_titles": [],
+      "artist": "Mårten Andersson",
+      "technique": "Litografi",
+      "year": 2004,
+      "dimensions_text": "41 x 29,5 cm",
+      "height_cm": 41.0,
+      "width_cm": 29.5,
+      "edition_size": 100,
+      "edition_text": "100 exemplar.",
+      "edition_source": "portfolio",
+      "portfolio": "De älskande i Moneglia",
+      "series": null,
+      "hand_colored": false,
+      "is_auxiliary_sheet": false,
+      "description": null,
+      "captions": [
+        "Mårten har fått med lite kärlek också i portföljen från Moneglia."
+      ],
+      "notes": null,
+      "book_pages": [
+        82
+      ],
+      "image_book_pages": [
+        82
+      ],
+      "pdf_pages": [
+        78
+      ],
+      "review_flags": [
+        "Teknik och år anges bara för portföljen, inte per blad."
+      ]
+    },
+    {
+      "id": "fran-tradgarden-2004",
+      "seq": 67,
+      "title": "Från trädgården",
+      "alt_titles": [],
+      "artist": "Mårten Andersson",
+      "technique": "Litografi",
+      "year": 2004,
+      "dimensions_text": "41 x 29,5 cm",
+      "height_cm": 41.0,
+      "width_cm": 29.5,
+      "edition_size": 100,
+      "edition_text": "100 exemplar.",
+      "edition_source": "portfolio",
+      "portfolio": "De älskande i Moneglia",
+      "series": null,
+      "hand_colored": false,
+      "is_auxiliary_sheet": false,
+      "description": null,
+      "captions": [
+        "Från en trädgård på den italienska rivieran."
+      ],
+      "notes": null,
+      "book_pages": [
+        82
+      ],
+      "image_book_pages": [
+        82
+      ],
+      "pdf_pages": [
+        78
+      ],
+      "review_flags": [
+        "Teknik och år anges bara för portföljen, inte per blad."
+      ]
+    },
+    {
+      "id": "torget-2004",
+      "seq": 68,
+      "title": "Torget",
+      "alt_titles": [],
+      "artist": "Mårten Andersson",
+      "technique": "Litografi",
+      "year": 2004,
+      "dimensions_text": "41 x 29,5 cm",
+      "height_cm": 41.0,
+      "width_cm": 29.5,
+      "edition_size": 100,
+      "edition_text": "100 exemplar.",
+      "edition_source": "portfolio",
+      "portfolio": "De älskande i Moneglia",
+      "series": null,
+      "hand_colored": false,
+      "is_auxiliary_sheet": false,
+      "description": null,
+      "captions": [
+        "Torget är samlingsplatsen i Moneglia."
+      ],
+      "notes": null,
+      "book_pages": [
+        82,
+        83
+      ],
+      "image_book_pages": [
+        83
+      ],
+      "pdf_pages": [
+        78,
+        79
+      ],
+      "review_flags": [
+        "Teknik och år anges bara för portföljen, inte per blad."
+      ]
+    },
+    {
+      "id": "ryttaren-2010",
+      "seq": 69,
+      "title": "Ryttaren",
+      "alt_titles": [],
+      "artist": "Mårten Andersson",
+      "technique": "Screentryck",
+      "year": 2010,
+      "dimensions_text": "107 x 75 cm",
+      "height_cm": 107.0,
+      "width_cm": 75.0,
+      "edition_size": 200,
+      "edition_text": "200 exemplar.",
+      "edition_source": "own",
+      "portfolio": null,
+      "series": "Mårtens arv och testamente",
+      "hand_colored": false,
+      "is_auxiliary_sheet": false,
+      "description": null,
+      "captions": [
+        "Ryttaren."
+      ],
+      "notes": null,
+      "book_pages": [
+        84,
+        85
+      ],
+      "image_book_pages": [
+        84
+      ],
+      "pdf_pages": [
+        100,
+        101
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "jagaren-2010",
+      "seq": 70,
+      "title": "Jägaren",
+      "alt_titles": [],
+      "artist": "Mårten Andersson",
+      "technique": "Screentryck",
+      "year": 2010,
+      "dimensions_text": "107 x 75 cm",
+      "height_cm": 107.0,
+      "width_cm": 75.0,
+      "edition_size": 200,
+      "edition_text": "200 exemplar.",
+      "edition_source": "own",
+      "portfolio": null,
+      "series": "Mårtens arv och testamente",
+      "hand_colored": false,
+      "is_auxiliary_sheet": false,
+      "description": null,
+      "captions": [
+        "Jägaren."
+      ],
+      "notes": null,
+      "book_pages": [
+        84,
+        85
+      ],
+      "image_book_pages": [
+        84
+      ],
+      "pdf_pages": [
+        100,
+        101
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "brudparet-2010",
+      "seq": 71,
+      "title": "Brudparet",
+      "alt_titles": [],
+      "artist": "Mårten Andersson",
+      "technique": "Screentryck",
+      "year": 2010,
+      "dimensions_text": "107 x 75 cm",
+      "height_cm": 107.0,
+      "width_cm": 75.0,
+      "edition_size": 200,
+      "edition_text": "200 exemplar.",
+      "edition_source": "own",
+      "portfolio": null,
+      "series": "Mårtens arv och testamente",
+      "hand_colored": false,
+      "is_auxiliary_sheet": false,
+      "description": null,
+      "captions": [
+        "Brudparet."
+      ],
+      "notes": null,
+      "book_pages": [
+        84,
+        85
+      ],
+      "image_book_pages": [
+        85
+      ],
+      "pdf_pages": [
+        100,
+        101
+      ],
+      "review_flags": []
+    }
+  ],
+  "portfolios": [
+    {
+      "id": "fem-brev-fran-byn",
+      "title": "Fem brev från byn",
+      "year": 1973,
+      "type": "portfolio",
+      "edition_size": 280,
+      "edition_text": "280 exemplar.",
+      "contents_note": "Portfölj med målade omslag innehållande fem litografier",
+      "description": "Den första portföljen blev också den bästa. Åtminstone sett till efterfrågan. Komplett betingar den höga priser, men enskilda blad är också eftertraktade. Framför allt Teklas hus.\nFem brev från byn är just – brev, även om de inte är i text utan i bilder. Portföljen innehåller litografier med berättelser, fyllda av mystik och de stämningar konstnären skildrar så känslosamt och skickligt med sina symboler – ofta mångtydiga och outtalade – som är så viktiga för honom. De berättar om vardag och fest, om glädje och lycka, men också om ensamhet och vemod.\nNär alla breven var skrivna återstod någonting att skicka dem i. Vanliga kuvert gick ju inte, så Mårten inhandlade kartong som han lät skära och vika till omslag. Därefter satte han sig och började måla. Samtliga 280 omslag, där inget är det andra likt.",
+      "captions": [],
+      "book_pages": [
+        38
+      ],
+      "pdf_pages": [
+        35
+      ],
+      "print_ids": [
+        "teklas-hus-1973",
+        "jagaren-och-hans-torn-1973",
+        "vinter-i-edstuga-1973",
+        "midsommarnattsdrom-1973",
+        "gumma-med-ko-1973"
+      ]
+    },
+    {
+      "id": "italienska-tradgardar",
+      "title": "Italienska trädgårdar",
+      "year": 1975,
+      "type": "portfolio",
+      "edition_size": 300,
+      "edition_text": "300 exemplar.",
+      "contents_note": "Portfölj med målade omslag innehållande fem litografier",
+      "description": "Här har konstnären förflyttat sig från Hälsingland och Fem brev från byn till trädgårdar i Italien. Men även till trädgårdar i Spanien, två av bladen har motiv därifrån.",
+      "captions": [],
+      "book_pages": [
+        46
+      ],
+      "pdf_pages": [
+        43
+      ],
+      "print_ids": [
+        "apelsintradet-1975",
+        "prastkragarna-1975",
+        "katten-och-fageln-1975",
+        "tradgard-fran-neapel-1975",
+        "jagaren-1975"
+      ]
+    },
+    {
+      "id": "iggesundsmappen",
+      "title": "Iggesundsmappen",
+      "year": 1985,
+      "type": "portfolio",
+      "edition_size": 400,
+      "edition_text": "400 exemplar.",
+      "contents_note": "Portfölj med tryckt omslag innehållande fyra litografier",
+      "description": "Ännu ett beställningsarbete, den här gången från Iggesunds Bruk. Det var brukets dåvarande vd, Lars G Sundblad, som lät Mårten framställa fyra litografier inför företagets 300-årsjubileum 1985. Samtliga bilder har anknytning till Iggesund eller dess närhet. Över landskapsbilden från Njutånger, med kyrkan i centrum, vilar kyrkans innertak.\nBladen är tryckta på ett tjockare och mer kartongliknande papper än övrig Mårten-grafik. Kartongen är framställd vid Iggesunds Bruk.",
+      "captions": [],
+      "book_pages": [
+        64
+      ],
+      "pdf_pages": [
+        60
+      ],
+      "print_ids": [
+        "skogsplantering-1985",
+        "odjuret-1985",
+        "grillska-garden-1985",
+        "njutangers-kyrka-1985"
+      ]
+    },
+    {
+      "id": "bruddansen",
+      "title": "Bruddansen",
+      "year": 1990,
+      "type": "portfolio",
+      "edition_size": 360,
+      "edition_text": "360 exemplar.",
+      "contents_note": "Portfölj med målade omslag innehållande tre litografier",
+      "description": "1990-talet skulle komma att bli de grafiska portföljernas årtionde. Tre stycken, innehållande totalt 13 blad, blev det. Det är ju lättare att berätta en historia på flera bilder än bara en, resonerade Mårten.\nFörst ut var triptyken (konstverk indelat i tre olika delar) Bruddansen. En kärleksberättelse där konstnären i den första bilden, Mannen med det brinnande hjärtat, inspirerats av den på 1700-talet verksamme snickerimålaren Erik Ersson. Han tillhörde Delsboskolan och var elev till den store allmogemålaren Gustaf Reuter. På Erssons bild står mannen och välsignar brödet på bordet.\nSommardans följs av Brudparet och bilden av lycka blir fullständig. Mårten har gestaltat de känslor och den tillvaro han unnar alla människor. Så här vill han att alla ska ha det.\nOftast ser man bladen ramade var för sig, men konstnärens tanke var att de tre bilderna skulle sammanfogas till en, stor bild och ramas så. Därför finns en monteringsanvisning med i portföljen. Även den är en litografi.",
+      "captions": [
+        "Monteringsanvisningen är också en litografi."
+      ],
+      "book_pages": [
+        72,
+        73
+      ],
+      "pdf_pages": [
+        68,
+        69
+      ],
+      "print_ids": [
+        "mannen-med-det-brinnande-hjartat-1990",
+        "sommardans-1990",
+        "brudparet-1990",
+        "monteringsanvisning-bruddansen-1990"
+      ]
+    },
+    {
+      "id": "serenad",
+      "title": "Serenad",
+      "year": 1991,
+      "type": "portfolio",
+      "edition_size": 300,
+      "edition_text": "300 exemplar.",
+      "contents_note": "Portfölj med målade omslag innehållande fyra litografier",
+      "description": "Året efter Bruddansen kom Serenad och nu hade Mårten lagt till ytterligare ett blad. Totalt fyra, således. Upplägget är från Nerja i Spanien, bergen de andalusiska och vattnet Medelhavet.\nTvå av bladen, Frieriet och Tillsammans mot bergen, har med åren tappat i färgerna. Mårten kasserade därför samtliga i hans ägo återstående exemplar när problemet blev känt.\nNågon förklaring till färgtappet kan konstnären inte ge.",
+      "captions": [],
+      "book_pages": [
+        74,
+        75
+      ],
+      "pdf_pages": [
+        70,
+        71
+      ],
+      "print_ids": [
+        "mannen-fran-bergen-1991",
+        "frieriet-1991",
+        "i-manskenet-1991",
+        "tillsammans-mot-bergen-1991"
+      ]
+    },
+    {
+      "id": "bilder-fran-hembygden",
+      "title": "Bilder från hembygden",
+      "year": 1996,
+      "type": "portfolio",
+      "edition_size": 280,
+      "edition_text": "280 exemplar.",
+      "contents_note": "Portfölj med målade omslag innehållande sex litografier",
+      "description": "I den tredje och sista grafiska portföljen på 1990-talet klippte Mårten till med sex litografier. Dock inte så stora, men det kompenseras gott och väl av att samtliga är handkolorerade. Ingen är därmed exakt den andra lik.\nAtt kolorera 1 680 grafiska blad (6 x 280), plus att måla omslag till varje portfölj, görs inte direkt i en handvändning. Mårten gjorde jobbet i den takt portföljerna såldes, för att inte bli tokig, som han säger.\nMen den första bunten Bilder från hembygden - och den var inte liten - fick han så lov att både kolorera och måla omslag till fort nog, för åtgången var stor när portföljen kom ut till försäljning. Det gjorde den i samband med en Mårten-utställning på museet i Bollnäs.\nI motsats till övriga portföljer det här årtiondet är Bilder från hembygden ingen berättelse som ska läsas i en viss ordning. Vart och ett av bladen står för sin egen historia.",
+      "captions": [],
+      "book_pages": [
+        76,
+        77,
+        78,
+        79
+      ],
+      "pdf_pages": [
+        72,
+        73,
+        74,
+        75
+      ],
+      "print_ids": [
+        "jagaren-1996",
+        "en-dag-vid-flugen-1996",
+        "vasbo-fabodar-1996",
+        "spelmannen-1996",
+        "dans-pa-ybo-gard-1996",
+        "kaffedrickarna-1996"
+      ]
+    },
+    {
+      "id": "de-alskande-i-moneglia",
+      "title": "De älskande i Moneglia",
+      "year": 2004,
+      "type": "portfolio",
+      "edition_size": 100,
+      "edition_text": "100 exemplar.",
+      "contents_note": "Portfölj med målade omslag innehållande fem litografier",
+      "description": "När Mårten och hans son Jerker reste till Italien i början av 2000-talet visste de på förhand inte riktigt var de skulle hamna. Enda kravet: en fin plats där de kunde rigga sina stafflier och börja måla.\nDe fann den lilla staden Moneglia, belägen vid havet i den nordvästra delen av landet, i regionen Ligurien, där Genoa är huvudort.\nMårten målade akvareller under tiden på den italienska rivieran och hemma igen hade han så det räckte för att framställa ännu en grafisk portfölj.\nMotiven hämtade han från strövtågen runt om i den lilla staden. Och de var många, för Moneglias historia sträcker sig så långt tillbaka som till 1100-talet. Där finns till exempel kända byggnader som kyrkan Santa Croce och franciskanerklostret med samma namn.\nDe älskande i Moneglia är konstnärens sjunde och – förmodligen – sista grafiska portfölj. Sex av dem har målade omslag, endast de till Iggesundsmappen är tryckta.\nDet betyder totalt 1 620 handmålade omslag.\n\"Jag älskar min publik\", brukar Mårten säga. De målade omslagen är ett uttryck för det, alla handkolorerade blad ett annat.",
+      "captions": [],
+      "book_pages": [
+        82,
+        83
+      ],
+      "pdf_pages": [
+        78,
+        79
+      ],
+      "print_ids": [
+        "vid-havet-2004",
+        "paskprocessionen-2004",
+        "de-alskande-2004",
+        "fran-tradgarden-2004",
+        "torget-2004"
+      ]
+    },
+    {
+      "id": "martens-arv-och-testamente",
+      "title": "Mårtens arv och testamente",
+      "year": 2010,
+      "type": "series",
+      "edition_size": null,
+      "edition_text": null,
+      "contents_note": "Serie om tre screentryck (ingen portfölj)",
+      "description": "Man ska aldrig säga aldrig när det gäller Mårten Andersson, men det kan vara så att de tre screentrycken Ryttaren, Jägaren och Brudparet utgör slutpunkten på hans grafiska produktion. Oavsett vad framtiden har att ge ska de i alla fall ses som en sammanfattning av konstnärens tänkande och hans konst genom åren.\nDen konst som mycket kom att påverkas av en – gardin.\nSå här var det:\nEn ung Mårten Andersson var på upptäcktsfärd i sin ständiga jakt på motiv. Han satt i en bil som passagerare, så att han i lugn och ro kunde spana ut över nejden.\nExakt var han befann sig när det hände minns han inte, men det var någonstans i södra Hälsingland, kanske i trakterna av Ovanåker.\nExakt vad som hände minns han dock mycket väl. Sällskapet han åkte med hade just passerat en stor hälsingegård när Mårten plötsligt beordrade:\n\"Stanna bilen\"!\nHan hade upptäckt en gardin i ett av den stora hälsingegårdens fönster, en gardin med ett mönster så vackert att det måste förevigas. Mårten tog fram skissblocket och skred till verket.\nTyvärr finns inte skissen kvar. Den är försvunnen, kanske i samband med någon flytt genom åren.\nMen mönstret är för den skull inte helt borta. I Mårtens huvud finns det kvar och han har plockat fram det ur minnet lite då och då när han suttit vid sitt staffli.\nMånga år efter att han beordrat \"stanna bilen\" dök en ny gardin upp, i samband med ännu en upptäcktsfärd. Även den med ett mönster så vackert att det måste förevigas. Nu skippade Mårten skissblocket, tog det säkra före det osäkra och anlitade naturfotografen Hilding Mickelsson (1919–2002).\nHan förevigade gardinen, vars mönster känns igen i de tre screentrycken Ryttaren, Jägaren och Brudparet.\nExakt var han befann sig vid upptäckten av gardin nummer två minns Mårten mycket väl. Det var i byn Vängsbo i Ovanåkers kommun. Där hängde gardinen, i ett av fönstren på 1700-talsgården Nygårds.\nDit återvände konstnären för några år sedan för att se om gardinen fanns kvar. Det gjorde den inte, men Mårten var nöjd ändå, för nu fick han komma in i gården och se rummet bakom gardinen. Det visade sig vara ännu mer fantastiskt. Mårten hade den här gången filmaren Dag Eriksson från Bollnäs med sig. Han dokumenterade \"jakten på den försvunna gardinen\" och den utgör en sekvens i en film som Dag Eriksson gjort om Mårten Andersson. Filmen heter Mitt arv och testamente (2013).\nScreentrycken är också en hyllning till dalakonstnären Jerk Werkmäster (1896–1978). Hos honom var Mårten konservatorselev en sommar under studieperioden vid Konstfack i början av 1950-talet. Werkmäster gjorde ett stort intryck på den unge målaren, så stort att Mårten kallar honom sin andlige broder.\nMen framför allt ska de tre screentrycken ses som ett komplement till de möbler Mårten Andersson skapat. Stolarna, borden, skåpen och ljuskronorna. Att forma rummets helhet, med såväl konst som möbler, var en dröm konstnären länge gick och bar på. Vid fyllda 75 hade han äntligen rott sitt drömprojekt i hamn.",
+      "captions": [
+        "Gardinen som stått modell för Mårtens tre senaste screentryck. FOTO: HILDING MICKELSSON",
+        "Ryttaren, Jägaren och Brudparet är en slags sammanfattning av Mårtens konst genom åren."
+      ],
+      "book_pages": [
+        84,
+        85
+      ],
+      "pdf_pages": [
+        100,
+        101
+      ],
+      "print_ids": [
+        "ryttaren-2010",
+        "jagaren-2010",
+        "brudparet-2010"
+      ]
+    }
+  ]
+}
